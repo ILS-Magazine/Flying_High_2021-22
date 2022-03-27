@@ -1,0 +1,39 @@
+body {
+    background-color: var(--light);
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    outline: none;
+    border: none;
+    background-color: var(--dark);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--grey300);
+}
+
+.darkModeButton {
+    font-size: 2em;
+    background-color: var(--accent2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: var(--black);
+    font-family: 'Source Sans Pro', "Poppins";
+}
+
+.darkModeButton:hover {
+    background-color: var(--accent3);
+}
