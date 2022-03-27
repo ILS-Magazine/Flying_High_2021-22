@@ -4,7 +4,7 @@ body {
 
 button {
     padding: 1em 2em;
-    border-radius: 2em;
+    border-radius: 1.75em;
     -webkit-border-radius: 2em;
     -moz-border-radius: 2em;
     -ms-border-radius: 2em;
@@ -31,7 +31,7 @@ button:hover {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     color: var(--black);
-    font-family: 'Source Sans Pro', "Poppins";
+    font-family: 'Staatliches', "Poppins";
 }
 
 .darkModeButton:hover {
