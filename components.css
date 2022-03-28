@@ -13,16 +13,20 @@
     -o-transition: 0.3s ease-in-out;
 }
 
- :root {
+
+
+:root {
     /* BG Color Variables */
     --light: #f8efe6;
     --dark: #020f17;
+
     /* Accent Color Variables */
     --accent1: #ef4479;
     --accent2: #fec758;
     --accent3: #fcdd76;
     --accent4: #48d0b9;
     --accent5: #1987ff;
+
     /* Neutral Color Variables */
     --grey100: #ffffff;
     --grey200: #e1e4e8;
@@ -33,9 +37,18 @@
     --grey700: #1f2124;
     --grey800: #020f17;
     --grey900: #000000;
+
     /* White and Black, Not affected by darkMode() */
     --white: #ffffff;
     --black: #000000;
+
+    /* Font Families */
+
+    --heading-font: "Playfair Display", serif;
+    --section-heading-font: "Alice", serif;
+    --content-font: "Source Sans Pro", sans-serif;
+    --small-content-font: "Source Sans Pro", sans-serif;
+
 }
 
 
@@ -67,4 +80,19 @@
 
 .cb {
     color: var(--black);
+}
+
+.heading {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: clamp(30px, calc(20px + 6vw), 84px);
+    padding: clamp(10px, 4vw, 30px);
+}
+
+.section-heading{
+    text-align: center;
+    font-family: var(--section-heading-font);
+    font-size: clamp(21px, calc(10px + 6vw), 48px);
+    padding: clamp(10px, 4vw, 30px);
 }
