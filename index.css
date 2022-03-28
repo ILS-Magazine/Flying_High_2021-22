@@ -2,8 +2,10 @@ body {
     background-color: var(--light);
 }
 
+/* General Button CSS */
+
 button {
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     border-radius: 1.75em;
     -webkit-border-radius: 2em;
     -moz-border-radius: 2em;
@@ -11,29 +13,31 @@ button {
     -o-border-radius: 2em;
     outline: none;
     border: none;
-    background-color: var(--dark);
+    /* background-color: var(--dark); */
     cursor: pointer;
 }
 
-button:hover {
-    background-color: var(--grey300);
-}
+/* Dark Mode Button */
 
 .darkModeButton {
     font-size: 2em;
-    background-color: var(--accent2);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    color: var(--black);
     font-family: 'Staatliches', "Poppins";
+    /* border: 2px solid var(--dark); */
+    background: none;
+    padding: 0.1em 1em;
+    outline: none;
+    border: none;
+    border-radius: 1.75em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-.darkModeButton:hover {
-    background-color: var(--accent3);
+/* Image within the Dark Mode Button */
+.darkModeButtonIcon{
+    height: 30px;
 }
