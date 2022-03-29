@@ -55,6 +55,14 @@
     -moz-transform: translateX(14px);
     -o-transform: translateX(14px);
 }
+
+input:checked + .bulb-outline {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+  -moz-transform: translateX(14px);
+  -o-transform: translateX(14px);
+}
   
   /* Rounded sliders */
   .slider.round {
