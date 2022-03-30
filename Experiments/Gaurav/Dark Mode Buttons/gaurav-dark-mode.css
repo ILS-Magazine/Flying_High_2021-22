@@ -3,6 +3,9 @@ body {
 }
 
 .darkModeButton {
+    position: absolute;
+    top:0;
+    right:0;
     height: 35px;
     width: 35px;
     margin: 5px ;
