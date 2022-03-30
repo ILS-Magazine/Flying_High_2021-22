@@ -3,8 +3,11 @@ body {
 }
 
 .darkModeButton {
-    height: 35px;
-    width: 35px;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 30px;
+    width: 30px;
     margin: 5px ;
     background: url("moon.svg") 22px;
     background-position: center;
