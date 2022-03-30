@@ -1,0 +1,25 @@
+body {
+    background-color: var(--light);
+}
+
+.darkModeButton {
+    height: 35px;
+    width: 35px;
+    margin: 5px ;
+    background: url("moon.svg") 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.darkModeButton:hover {
+    background-color: #aaaaaa55;
+}
