@@ -37,10 +37,3 @@ function clear() {
         searchItems[i].style.display = "list-item";
     }
 }
-
-function goToArticle(searchLink){
-    console.log(searchLink);
-    var article = document.querySelector("[data-articleTitle='"+searchLink+"']");
-    console.log(article);
-    article.scrollIntoView;
-}

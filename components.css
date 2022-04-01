@@ -90,6 +90,7 @@ h1{
     font-weight: 700;
     font-size: clamp(30px, calc(20px + 6vw), 84px);
     padding: clamp(10px, 4vw, 30px);
+    color: var(--dark);
 }
 
 

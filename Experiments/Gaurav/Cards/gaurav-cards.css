@@ -17,21 +17,25 @@
     width: 270px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--grey500);
+    border-bottom: 1px solid var(--light);
     font-size: 15px;
     outline: none;
-    color: var(--grey700);
+    color: var(--light);
     margin-right: 10px;
     padding: 5px;
 }
 
+.searchInput input::placeholder{
+    color: var(--light);
+}
+
 .searchInput input:active, .searchInput input:focus{
-    border-bottom: 2px solid var(--grey700);
+    border-bottom: 2px solid var(--light);
 }
 
 .searchInput i{
     font-size: 25px;
-    color: var(--grey500);
+    color: var(--light);
     cursor: pointer;
 }
 
