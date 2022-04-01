@@ -5,7 +5,7 @@
 .searchInputWrapper{
     width: 100%;
     height: 50px;
-    background-color: var(--accent3);
+    background-color: var(--accent4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,22 +34,11 @@
 }
 
 .searchInput i{
-    font-size: 20px;
+    font-size: 25px;
     color: var(--grey500);
     cursor: pointer;
 }
 
-.searchIcon{
-    position: absolute;
-    top: 17.5px;
-    right: calc(50% + 165px);
-}
-
-.searchIcon i{
-    font-size: 20px;
-    color: var(--grey500);
-    cursor: pointer;
-}
 
 /* Articles List */
 
