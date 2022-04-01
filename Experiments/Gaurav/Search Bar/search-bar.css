@@ -1,12 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -ms-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
+*{
+    font-family: "Source Sans Pro";
 }
 
 .searchInputWrapper{
@@ -28,27 +21,43 @@
     width: 270px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid var(--grey500);
     font-size: 15px;
     outline: none;
-    color: #555;
+    color: var(--grey700);
     margin-right: 10px;
+    padding: 5px;
+}
+
+.searchInput input:active, .searchInput input:focus{
+    border-bottom: 2px solid var(--grey700);
 }
 
 .searchInput i{
-    font-size: 15px;
-    color: #999;
+    font-size: 20px;
+    color: var(--grey500);
     cursor: pointer;
 }
 
 .searchIcon{
-    font-size: 15px;
     position: absolute;
     top: 17.5px;
-    right: calc(50% + 160px);
+    right: calc(50% + 165px);
 }
 
 .searchIcon i{
-    color: #999;
+    font-size: 20px;
+    color: var(--grey500);
     cursor: pointer;
+}
+
+/* Articles List */
+
+.articlesList{
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.articlesList ul li{
+    margin-bottom: 15px;
 }
