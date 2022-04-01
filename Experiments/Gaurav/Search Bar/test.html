@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <h1>Articles</h1>
+    <div class="searchInputWrapper">
+        <div class="searchInput">
+            <input type="text" name="Search Bar" id="searchBar" placeholder="Search by Article, Author or Tags">
+            <i class="material-icons" id="seachInputClear">clear</i>
+        </div>
+    </div>
+    <div class="articlesList">
+        <ul>
+            <li data-tags="french travel">
+                <h3>Travelling the World</h3>
+                <p>By Guarav Shah</p>
+            </li>
+            <li data-tags="english pens">
+                <h3>The world of Pens</h3>
+                <p>By Jahnavi Nandwani</p>
+            </li>
+            <li data-tags="hindi poems">
+                <h3>Hindi Poem</h3>
+                <p>By Gehna Jain</p>
+            </li>
+            <li data-tags="english">
+                <h3>Water Bottle</h3>
+                <p>By Gautam Khera</p>
+            </li>
+            <li data-tags="english glue">
+                <h3>Gluestick</h3>
+                <p>By Saumya Shreya</p>
+            </li>
+            <li data-tags="english emotions">
+                <h3>Attitude</h3>
+                <p>By Saumya Shreya</p>
+            </li>
+            <li data-tags="english">
+                <h3>Hello</h3>
+                <p>By Gaurav Shah</p>
+            </li>
+        </ul>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:wght@700&family=Source+Sans+Pro:ital,wght@0,600;1,300&display-swap');
+
+        /* General Reset */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: 0.3s ease-in-out;
+            -webkit-transition: 0.3s ease-in-out;
+            -moz-transition: 0.3s ease-in-out;
+            -ms-transition: 0.3s ease-in-out;
+            -o-transition: 0.3s ease-in-out;
+        }
+
+
+
+        :root {
+            /* BG Color Variables */
+            --light: #f8efe6;
+            --dark: #020f17;
+
+            /* Accent Color Variables */
+            --accent1: #ef4479;
+            --accent2: #fec758;
+            --accent3: #fcdd76;
+            --accent4: #48d0b9;
+            --accent5: #1987ff;
+
+            /* Neutral Color Variables */
+            --grey100: #ffffff;
+            --grey200: #e1e4e8;
+            --grey300: #c2c9d1;
+            --grey400: #92979d;
+            --grey500: #616569;
+            --grey600: #46494d;
+            --grey700: #1f2124;
+            --grey800: #020f17;
+            --grey900: #000000;
+
+            /* White and Black, Not affected by darkMode() */
+            --white: #ffffff;
+            --black: #000000;
+
+            /* Font Families */
+
+            --heading-font: "Playfair Display", serif;
+            --section-heading-font: "Alice", serif;
+            --content-font: "Source Sans Pro", sans-serif;
+            --small-content-font: "Source Sans Pro", sans-serif;
+
+        }
+
+
+        /* Utitly Classes */
+
+        .bga1 {
+            background-color: var(--accent1);
+        }
+
+        .bga2 {
+            background-color: var(--accent2);
+        }
+
+        .bga3 {
+            background-color: var(--accent3);
+        }
+
+        .bga4 {
+            background-color: var(--accent4);
+        }
+
+        .bga5 {
+            background-color: var(--accent5);
+        }
+
+        .cw {
+            color: var(--white);
+        }
+
+        .cb {
+            color: var(--black);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: var(--heading-font);
+            font-weight: 700;
+            font-size: clamp(30px, calc(20px + 6vw), 84px);
+            padding: clamp(10px, 4vw, 30px);
+        }
+
+        .heading {
+            text-align: center;
+            font-family: var(--heading-font);
+            font-weight: 700;
+            font-size: clamp(30px, calc(20px + 6vw), 84px);
+            padding: clamp(10px, 4vw, 30px);
+        }
+
+        .section-heading {
+            text-align: center;
+            font-family: var(--section-heading-font);
+            font-size: clamp(21px, calc(10px + 6vw), 48px);
+            padding: clamp(10px, 4vw, 30px);
+        }
+    </style>
+    <style>
+        * {
+            font-family: "Source Sans Pro";
+        }
+
+        .searchInputWrapper {
+            width: 100%;
+            height: 50px;
+            background-color: var(--accent4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .searchInput {
+            width: 310px;
+            display: flex;
+            align-items: center;
+        }
+
+        .searchInput input {
+            width: 270px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid var(--grey500);
+            font-size: 15px;
+            outline: none;
+            color: var(--grey700);
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+        .searchInput input:active,
+        .searchInput input:focus {
+            border-bottom: 2px solid var(--grey700);
+        }
+
+        .searchInput i {
+            font-size: 25px;
+            color: var(--grey500);
+            cursor: pointer;
+        }
+
+
+        /* Articles List */
+
+        .articlesList {
+            padding: 20px;
+            padding-left: 40px;
+        }
+
+        .articlesList ul li {
+            margin-bottom: 15px;
+        }
+    </style>
+    <script>
+        const searchInputField = document.querySelector('#searchBar')
+
+        document.querySelector('#seachInputClear').addEventListener("click", function () {
+            searchInputField.value = "";
+            clear();
+        });
+
+        searchInputField.addEventListener('focusout', function () {
+            if (searchInputField.value == "") {
+                clear();
+            };
+        })
+
+        searchInputField.addEventListener('keypress', function () {
+            search()
+        });
+
+
+        function search() {
+            let input = searchInputField.value.toLowerCase();
+            let searchItems = document.querySelector(".articlesList ul").children;
+            for (i = 0; i < searchItems.length; i++) {
+                if (!searchItems[i].innerHTML.toLowerCase().includes(input) && !searchItems[i].dataset.tags.includes(input)) {
+                    searchItems[i].style.display = "none";
+                }
+                else {
+                    searchItems[i].style.display = "list-item";
+                }
+            }
+        };
+
+        function clear() {
+            console.log("Clearing Search Bar...");
+            let searchItems = document.querySelector(".articlesList ul").children;
+            for (i = 0; i < searchItems.length; i++) {
+                searchItems[i].style.display = "list-item";
+            }
+        }
+    </script>
+</body>
+
+</html>

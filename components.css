@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:wght@700&family=Source+Sans+Pro:ital,wght@0,600;1,300&display-swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 /* General Reset */
 
@@ -45,7 +46,8 @@
     /* Font Families */
 
     --heading-font: "Playfair Display", serif;
-    --section-heading-font: "Alice", serif;
+    /* --section-heading-font: "Alice", serif; */
+    --section-heading-font: "Montserrat", sans-serif;
     --content-font: "Source Sans Pro", sans-serif;
     --small-content-font: "Source Sans Pro", sans-serif;
 
@@ -90,6 +92,7 @@ h1{
     padding: clamp(10px, 4vw, 30px);
 }
 
+
 .heading {
     text-align: center;
     font-family: var(--heading-font);
@@ -103,4 +106,9 @@ h1{
     font-family: var(--section-heading-font);
     font-size: clamp(21px, calc(10px + 6vw), 48px);
     padding: clamp(10px, 4vw, 30px);
+}
+
+body{
+    font-family: var(--content-font);
+
 }
