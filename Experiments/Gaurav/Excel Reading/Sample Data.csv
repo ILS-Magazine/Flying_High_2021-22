@@ -1,0 +1,44 @@
+﻿UCID,OrderDate,Region,Rep,Item,Units,UnitCost,Total
+ART1,01/06/2020,East,Jones,Pencil,95,1.99,189.05
+ART2,1/23/2020,Central,Kivell,Binder,50,19.99,999.5
+ART3,02/09/2020,Central,Jardine,Pencil,36,4.99,179.64
+ART4,2/26/2020,Central,Gill,Pen,27,19.99,539.73
+ART5,3/15/2020,West,Sorvino,Pencil,56,2.99,167.44
+ART6,04/01/2020,East,Jones,Binder,60,4.99,299.4
+ART7,4/18/2020,Central,Andrews,Pencil,75,1.99,149.25
+ART8,05/05/2020,Central,Jardine,Pencil,90,4.99,449.1
+ART9,5/22/2020,West,Thompson,Pencil,32,1.99,63.68
+ART10,06/08/2020,East,Jones,Binder,60,8.99,539.4
+ART11,6/25/2020,Central,Morgan,Pencil,90,4.99,449.1
+ART12,07/12/2020,East,Howard,Binder,29,1.99,57.71
+ART13,7/29/2020,East,Parent,Binder,81,19.99,"1,619.19"
+ART14,8/15/2020,East,Jones,Pencil,35,4.99,174.65
+ART15,09/01/2020,Central,Smith,Desk,2,125,250
+ART16,9/18/2020,East,Jones,Pen Set,16,15.99,255.84
+ART17,10/05/2020,Central,Morgan,Binder,28,8.99,251.72
+ART18,10/22/2020,East,Jones,Pen,64,8.99,575.36
+ART19,11/08/2020,East,Parent,Pen,15,19.99,299.85
+ART20,11/25/2020,Central,Kivell,Pen Set,96,4.99,479.04
+ART21,12/12/2020,Central,Smith,Pencil,67,1.29,86.43
+ART22,12/29/2020,East,Parent,Pen Set,74,15.99,"1,183.26"
+ART23,1/15/2021,Central,Gill,Binder,46,8.99,413.54
+ART24,02/01/2021,Central,Smith,Binder,87,15,"1,305.00"
+ART25,2/18/2021,East,Jones,Binder,4,4.99,19.96
+ART26,03/07/2021,West,Sorvino,Binder,7,19.99,139.93
+ART27,3/24/2021,Central,Jardine,Pen Set,50,4.99,249.5
+ART28,04/10/2021,Central,Andrews,Pencil,66,1.99,131.34
+ART29,4/27/2021,East,Howard,Pen,96,4.99,479.04
+ART30,5/14/2021,Central,Gill,Pencil,53,1.29,68.37
+ART31,5/31/2021,Central,Gill,Binder,80,8.99,719.2
+ART32,6/17/2021,Central,Kivell,Desk,5,125,625
+ART33,07/04/2021,East,Jones,Pen Set,62,4.99,309.38
+ART34,7/21/2021,Central,Morgan,Pen Set,55,12.49,686.95
+ART35,08/07/2021,Central,Kivell,Pen Set,42,23.95,"1,005.90"
+ART36,8/24/2021,West,Sorvino,Desk,3,275,825
+ART37,09/10/2021,Central,Gill,Pencil,7,1.29,9.03
+ART38,9/27/2021,West,Sorvino,Pen,76,1.99,151.24
+ART39,10/14/2021,West,Thompson,Binder,57,19.99,"1,139.43"
+ART40,10/31/2021,Central,Andrews,Pencil,14,1.29,18.06
+ART41,11/17/2021,Central,Jardine,Binder,11,4.99,54.89
+ART42,12/04/2021,Central,Jardine,Binder,94,19.99,"1,879.06"
+ART43,12/21/2021,Central,Andrews,Binder,28,4.99,139.72
