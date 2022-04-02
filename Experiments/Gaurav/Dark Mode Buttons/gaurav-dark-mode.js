@@ -5,7 +5,7 @@ if (darkModeNumber == 1) {
     darkMode();
 }
 
-//Chech if Dark mode is already enabled
+//Check if Dark mode is already enabled
 
 function checkDarkMode() {
     if (localStorage.getItem("darkModeNumber") == 1) {
