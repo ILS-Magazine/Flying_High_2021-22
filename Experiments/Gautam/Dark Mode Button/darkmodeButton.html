@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <title>Dark Mode Button</title>
+    
+    <style>
+        body{
+            background-color: antiquewhite ;
+        }
+        button{
+            border: white 2px;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: large;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .dark_button{
+            background-color: black;
+            color: antiquewhite;
+            transition: 300ms;
+        }
+
+        .buttons{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        .dark_mode{
+            background-color: black;
+            color: antiquewhite;
+            transition: 300ms;
+        }
+    </style>
+</head>
+<body>
+
+   <div class = "buttons">
+       <button class = "dark_button", onclick="toggleDarkmode()">Lights Off</button>
+   </div>
+
+   <script>
+
+    var numberOfClicks = 0;
+    var darkModeButton = document.querySelector(".dark_button");
+
+    darkModeButton.addEventListener("click", () => {
+        numberOfClicks += 1;
+    });  
+
+    function toggleDarkmode() {
+        var element = document.body;
+        element.classList.toggle("dark_mode");
+        
+        if (numberOfClicks % 2 == 1){
+            lightMode();
+        } else{
+            darkMode();
+        }
+    }
+
+    function darkMode(){
+        darkModeButton.innerHTML = "Lights On";
+        darkModeButton.style.backgroundColor = "antiquewhite";
+        darkModeButton.style.color = "black";
+    }
+
+    function lightMode(){
+        darkModeButton.innerHTML = "Lights Off";
+        darkModeButton.style.backgroundColor = "black";
+        darkModeButton.style.color = "antiquewhite";
+    }
+
+
+</script>
+</body>
+</html>
