@@ -1,5 +1,5 @@
 console.log(sampleData[0]["Item"]);
-createHTML();
+// createHTML();
 
 function createHTML(){
     var sampleDataTable = "";
@@ -13,5 +13,5 @@ function createHTML(){
         var Total = sampleData[i]["Total"];  
         sampleDataTable += "<p>"+OrderDate+", "+Region+", "+Rep+", "+Item+", "+Units+", "+UnitCost+", "+Total+"</p><hr>"
     }
-    document.getElementById('sampleDataDiv').innerHTML = sampleDataTable;
+    document.getElementById('studentWriteUpWrapper').innerHTML = sampleDataTable;
 }
