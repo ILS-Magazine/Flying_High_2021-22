@@ -37,3 +37,11 @@ body{
   background-image: url('./sunset.jpg');
   background-size:cover;
 }
+.car-2{
+  background-image: url('./sun2.jpg');
+  background-size:cover;
+}
+.car-3{
+  background-image: url('./sun3.jpg');
+  background-size:cover;
+}
