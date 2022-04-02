@@ -15,4 +15,3 @@ function createHTML(){
     }
     document.getElementById('sampleDataDiv').innerHTML = sampleDataTable;
 }
-
