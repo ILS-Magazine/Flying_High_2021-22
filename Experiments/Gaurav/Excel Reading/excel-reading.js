@@ -9,8 +9,8 @@ function createHTML() {
         var grade = sampleData[i]["CLASS AND SECTION"];
         var quote = sampleData[i]["Quote"];
         var famousPersonaility = sampleData[i]["Famous Personality"];
-        var accentNumber = 2;
-        // var accentNumber = Math.floor(Math.random() * 5) + 1;
+        // var accentNumber = 2;
+        var accentNumber = Math.floor(Math.random() * 5) + 1;
         quote = quote.replace(/\n/g, '<br><br>');
         quote = quote.replace(/\"/g, '"');
         console.log(quote);

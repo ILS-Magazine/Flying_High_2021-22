@@ -1,12 +1,5 @@
 var sampleData = [
   {
-    "UCID": "Quote34",
-    "NAME": "Gaurav Shah",
-    "CLASS AND SECTION": "XII C",
-    "Quote": "“I am still learning” - Michelangelo at the age of 87\nWhether it be something small (like a class project) or a huge competition (like the investment competition), I make it a point to always take away one new skill from what I’ve done. This curiosity to learn has driven and motivated me over the years. For example, I never thought of myself as a computer geek (I still use my apps on light mode 😅) but out of necessity, I learnt how to code and now, it’s a huge part of my life.",
-    "Famous Personality": "More so than the fake persona’s of famous people, it is the people around me who motivate me. My friends, teachers, team mates, parents and everyone else - real people, who I see succeeding and struggling motivate me. It reminds me that no one is perfect, but with time, determination and smart work, success is inevitable."
-  },
-  {
     "UCID": "Quote1",
     "NAME": "Ansa Lorance ",
     "CLASS AND SECTION": "XI A",
@@ -66,8 +59,8 @@ var sampleData = [
     "UCID": "Quote9",
     "NAME": "Vedant Vadalikar ",
     "CLASS AND SECTION": "XI B",
-    "Quote": "\"Reality is often disappointing. Now reality can be whatever I want\"\nIt motivates me to shape my own destiny ",
-    "Famous Personality": "ishowspeed\nHe grew from a small streamer to such a popular one"
+    "Quote": "\"Reality is often disappointing. Now reality can be whatever I want\"\n\n\nIt motivates me to shape my own destiny ",
+    "Famous Personality": "ishowspeed\n\nHe grew from a small streamer to such a popular one"
   },
   {
     "UCID": "Quote10",
@@ -94,8 +87,8 @@ var sampleData = [
     "UCID": "Quote13",
     "NAME": "Drishti sha",
     "CLASS AND SECTION": "XI B",
-    "Quote": "\"Man I wish I had a bankai or something.\"- gintoki sakata (Gintama)\n",
-    "Famous Personality": "Hatake Kakashi ( Naruto )\nAt the age of 6 he saw how cruel the world can be and yet still faces the world with a smile.\nhe knows that everything that happens in this world might not be fair but still fights to protect the people important to him."
+    "Quote": "\"Man I wish I had a bankai or something.\"- gintoki sakata (Gintama)\n\n\n",
+    "Famous Personality": "Hatake Kakashi ( Naruto )\n\nAt the age of 6 he saw how cruel the world can be and yet still faces the world with a smile.\nhe knows that everything that happens in this world might not be fair but still fights to protect the people important to him."
   },
   {
     "UCID": "Quote14",
@@ -129,8 +122,8 @@ var sampleData = [
     "UCID": "Quote18",
     "NAME": "Rahul Ravi ",
     "CLASS AND SECTION": "XI C",
-    "Quote": " Be like water. If it is stored in a bottle it will be the bottle or of it is in the box it will be the box '.- By Bruce Lee \nThis stats that wherever we are, we have to adjust according to the area. ",
-    "Famous Personality": "Cristiano Ronaldo.\nHardwork is the key to success."
+    "Quote": " Be like water. If it is stored in a bottle it will be the bottle or of it is in the box it will be the box '.\n \nBy Bruce Lee \n\n\n\nThis stats that wherever we are, we have to adjust according to the area. ",
+    "Famous Personality": "Cristiano Ronaldo.\n\n\nHardwork is the key to success."
   },
   {
     "UCID": "Quote19",
@@ -143,14 +136,14 @@ var sampleData = [
     "UCID": "Quote20",
     "NAME": "Gehna Jain",
     "CLASS AND SECTION": "XI C",
-    "Quote": "Every morning you have two choices- Continue to sleep with your dreams or wake up and chase  them. - Lewis Howes\nThis beautiful quote by Lewis inspired me to work harder towards my dreams. It made me realize that dreams don’t come true with pixie dust and magic. Dreams come true when we put efforts to make them a reality.\n",
+    "Quote": "Every morning you have two choices- Continue to sleep with your dreams or wake up and chase  them. \n- Lewis Howes\n\nThis beautiful quote by Lewis inspired me to work harder towards my dreams. It made me realize that dreams don’t come true with pixie dust and magic. Dreams come true when we put efforts to make them a reality.\n",
     "Famous Personality": "Bill gates is today known for Microsoft and being incredibly wealthy because of it.\nDespite his aptitude for business and incredible intellect, his first business venture failed.\nBill gates didn’t give up after this initial failure. This ever going spirit inspired me to keep working despite multiple failures. He once said “Life is not fair, get used it” that touch me hard. "
   },
   {
     "UCID": "Quote21",
     "NAME": "Aditi Kulkarni ",
     "CLASS AND SECTION": "XI D",
-    "Quote": "“Life has got all those twists and turns. You’ve got to hold on tight and off you go.”\n— Nicole Kidman\nI learnt from this quote to accept what ever is coming in your path. Life has ups and downs and we need to find a way how to get over them.",
+    "Quote": "“Life has got all those twists and turns. You’ve got to hold on tight and off you go.”\n— Nicole Kidman\n\nI learnt from this quote to accept what ever is coming in your path. Life has ups and downs and we need to find a way how to get over them.",
     "Famous Personality": "Anne Marie- she is a British singer and she has motivated me to start writing songs. I was and am good at singing, but i wasn't able to make original song and i think i am gonna give it a big try."
   },
   {
@@ -171,8 +164,8 @@ var sampleData = [
     "UCID": "Quote24",
     "NAME": "Manan Mistry",
     "CLASS AND SECTION": "XI D",
-    "Quote": "\"Failing doesn’t give you a reason to give up, as long as you believe.” – Naruto\nFailing is a part of life, growth, and victory. It is the stepping stone of every success. However, believing in yourself fuels your true triumph. \n",
-    "Famous Personality": "Elon Musk\nElon Musk inspires me because he is a true visionary. His ability to dream big and then implement brings me hope for the future, especially as we continue to face climate change. The way that he thinks about the future and what can be done with technology is amazing. "
+    "Quote": "\"Failing doesn’t give you a reason to give up, as long as you believe.” – Naruto\n\nFailing is a part of life, growth, and victory. It is the stepping stone of every success. However, believing in yourself fuels your true triumph. \n",
+    "Famous Personality": "Elon Musk\n\nElon Musk inspires me because he is a true visionary. His ability to dream big and then implement brings me hope for the future, especially as we continue to face climate change. The way that he thinks about the future and what can be done with technology is amazing. "
   },
   {
     "UCID": "Quote25",
@@ -186,7 +179,7 @@ var sampleData = [
     "NAME": "Saumya Shreya ",
     "CLASS AND SECTION": "XI D",
     "Quote": "Umbrella can’t stop the rain but can make us stand in the rain. Similarly, confidence may not bring success, but gives us power to face any challenge in life. \nThis quote has the power to motivate so many people with low self-esteem and self doubt. It taught me that no matter the situation we can find ourself in, always remember that we are the most powerful person. No one else has the power to influence our self-confidence and self-esteem like we can,that is 100% on us. We are the judge, jury and executioner of our own awesomeness,every single day.",
-    "Famous Personality": "A famous personality who has always motivated me would be Priyanka Chopra. Just like me she was born in a small city named \"Jamshedpur\" and since has been a pride of our place. \nShe has never been afraid to push the boundaries, believing in working on her own path and it worked on her favour. She's a hustler and lives on coffee but the physical tiredness doesn't stop her brain to stop bubbling with creativity.\nShe's a successful actress, singer, producer and entrepreneur all rolled into one and inspires us to live our dream in any possible way. \nWith this I would like to quote one of her lines,\n\"I have always felt that life is a solidarity journey, that we are each on a train, riding through our hours, our days, our years. We get on alone, we leave alone, and the decisions we make as we travel on the train are our responsibility alone,\"\nEnjoying your own company, being independent, bold and wearing your confidence proudly can make invincible. \nThis is what I have learnt from the journey of PeeCee. \n"
+    "Famous Personality": "A famous personality who has always motivated me would be Priyanka Chopra. Just like me she was born in a small city named \"Jamshedpur\" and since has been a pride of our place. \n\nShe has never been afraid to push the boundaries, believing in working on her own path and it worked on her favour. She's a hustler and lives on coffee but the physical tiredness doesn't stop her brain to stop bubbling with creativity.\nShe's a successful actress, singer, producer and entrepreneur all rolled into one and inspires us to live our dream in any possible way. \nWith this I would like to quote one of her lines,\n\"I have always felt that life is a solidarity journey, that we are each on a train, riding through our hours, our days, our years. We get on alone, we leave alone, and the decisions we make as we travel on the train are our responsibility alone,\"\n\nEnjoying your own company, being independent, bold and wearing your confidence proudly can make invincible. \nThis is what I have learnt from the journey of PeeCee. \n"
   },
   {
     "UCID": "Quote27",
@@ -238,6 +231,13 @@ var sampleData = [
     "Famous Personality": "Niel Patrick Harris"
   },
   {
+    "UCID": "Quote34",
+    "NAME": "Gaurav Shah",
+    "CLASS AND SECTION": "XII C",
+    "Quote": "“I am still learning” - Michelangelo at the age of 87\n\nWhether it be something small (like a class project) or a huge competition (like the investment competition), I make it a point to always take away one new skill from what I’ve done. This curiosity to learn has driven and motivated me over the years. For example, I never thought of myself as a computer geek (I still use my apps on light mode 😅) but out of necessity, I learnt how to code and now, it’s a huge part of my life.",
+    "Famous Personality": "More so than the fake persona’s of famous people, it is the people around me who motivate me. My friends, teachers, team mates, parents and everyone else - real people, who I see succeeding and struggling motivate me. It reminds me that no one is perfect, but with time, determination and smart work, success is inevitable."
+  },
+  {
     "UCID": "Quote35",
     "NAME": "Prerna Dutta ",
     "CLASS AND SECTION": "XII C",
@@ -255,7 +255,7 @@ var sampleData = [
     "UCID": "Quote37",
     "NAME": "Aditya Wellingkar",
     "CLASS AND SECTION": "XII C",
-    "Quote": "\"Don't take life too seriously, you're never getting out of it alive\"\n\"Silence is golden , duct tape is silver\"\n\"Whatever you do give your 100% unless you are donating blood\"\n\"The elevator to success is out of order you will have to use the stairs one step at a time\"\n\"Wisdom comes from experience, experience is often a result of lack of wisdom\"\nThe above 5 quotes have inspired me a Lott as thinking of these quotes makes me laugh which makes the obstacles a lot easier to overcome ",
+    "Quote": "\"Don't take life too seriously, you're never getting out of it alive\"\n\"Silence is golden , duct tape is silver\"\n\"Whatever you do give your 100% unless you are donating blood\"\n\"The elevator to success is out of order you will have to use the stairs one step at a time\"\n\"Wisdom comes from experience, experience is often a result of lack of wisdom\"\n\nThe above 5 quotes have inspired me a Lott as thinking of these quotes makes me laugh which makes the obstacles a lot easier to overcome ",
     "Famous Personality": "All of the Animes , shows and movies that I have watched have inspired me in some way or the other mostly I have been inspired by ANIME characters the most coz I can relate to their hardships and I am inspired by their personalities\nMoreso I have a greater respect and idolize the authors who create mangas and animators who make anime as they are the real embodiment of hardwork paves the path to success."
   },
   {
@@ -276,7 +276,7 @@ var sampleData = [
     "UCID": "Quote40",
     "NAME": "Riya Shinde",
     "CLASS AND SECTION": "XII D",
-    "Quote": "\"In the end they will judge me anyway, so whatever\" - Yoongi Min\nI cared a lot about the statement, \" log kya kahenge\" from a very long time, these words bought me to the realisation that anything I do, people will always have something to say, so I will do what I want and what makes me happy and satisfied. \n\"Just because you have a lot of stress, doesn't mean you have to relieve it by hurting yourself.\" - Christopher Chan Bang\nThis quote was helpful numerous times.\n\"Its about drive, its about power, we stay hunger, we devouring, put in the work, put in the hours and  take what's ours.\" - The Rock\nThese words helped in reminding me that I have to achieve something and I need to hold on and work harder for it.",
+    "Quote": "\"In the end they will judge me anyway, so whatever\" - Yoongi Min\nI cared a lot about the statement, \" log kya kahenge\" from a very long time, these words bought me to the realisation that anything I do, people will always have something to say, so I will do what I want and what makes me happy and satisfied. \n\n\"Just because you have a lot of stress, doesn't mean you have to relieve it by hurting yourself.\" - Christopher Chan Bang\nThis quote was helpful numerous times.\n\n\"Its about drive, its about power, we stay hunger, we devouring, put in the work, put in the hours and  take what's ours.\" - The Rock\nThese words helped in reminding me that I have to achieve something and I need to hold on and work harder for it.",
     "Famous Personality": "There are so many people out there who have motivated me. Said words that I never knew I needed to hear. \nNamjoon Kim and Yoongi Min achieved success even tho their families didn't support them.\nI want to learn how to move my way, even if I have no one to support me or tell me that I'm doing great. "
   },
   {
@@ -313,5 +313,47 @@ var sampleData = [
     "CLASS AND SECTION": "XI A",
     "Quote": "Hakuna Matata. It is a saying which means no worries. It has helped me not to get too worked up over failures or mistakes and to keep working hard.",
     "Famous Personality": "Shobana Chandrakumar Pillai: She is a Bharatnatyam dancer who fought againt all odds and rose to be a famous personality. She is determined, confident and never afraid to try out new things. The way she carries herself and her creativity has always inspired me to think out of the box and work harder."
+  },
+  {
+    "UCID": "Quote46",
+    "NAME": "Jheel Valecha ",
+    "CLASS AND SECTION": "XI D",
+    "Quote": "“if it makes you happy, it doesn’t have to make sense to anyone else” this quote has taught me that it shouldn’t matter if other people judge you, you happiness is all that matters.  ",
+    "Famous Personality": "Harry Styles, he inspires me to always treat people with kindness and spread love wherever you go. "
+  },
+  {
+    "UCID": "Quote47",
+    "NAME": "Joel K Mathews",
+    "CLASS AND SECTION": "XII D",
+    "Quote": "Great power come great responsibility ",
+    "Famous Personality": "Mahatma gandhi"
+  },
+  {
+    "UCID": "Quote48",
+    "NAME": "Tarun Sagaram ",
+    "CLASS AND SECTION": "XI B",
+    "Quote": "To live is to risk it all. Otherwise you're just an inert chunk or randomly assembled molecules drifting wherever the universe blows you.\n\nIt has motivated me to live to the fullest...",
+    "Famous Personality": ""
+  },
+  {
+    "UCID": "Quote49",
+    "NAME": "Gautam Khera",
+    "CLASS AND SECTION": "XI B",
+    "Quote": "\"If you went back to erase all the mistakes you have ever made, you would end up erasing yourself...\"\nIt has taught me that humans make mistakes and these mistakes are the one that define a person and make them different from others. Embrace your flaws and overpower them instead of being insecure about them.",
+    "Famous Personality": "Steve Jobs has motivated me. An adopted college dropout who took up calligraphy as a course which helped him years later to create the first digital font in the world. He has taught us that whatever you do today will come back to you in the future in one way or the other. The fact that a single opportunity taken or missed can have a huge impact on your life is something that can drive you and kindle the burning passion in people. "
+  },
+  {
+    "UCID": "Quote50",
+    "NAME": "Dheer Ramnani",
+    "CLASS AND SECTION": "XI B",
+    "Quote": "Alea iacta est (\"The die is cast\") , used to say that a process or course of action has been started and that it cannot be stopped or changed , it highly motivates me since it signifies that when something has begun there is no point in making efforts to alter its course since its inevitable",
+    "Famous Personality": "Stephen Hawking , Move Forward no matter the challenges in one's path . "
+  },
+  {
+    "UCID": "Quote51",
+    "NAME": "Ishita Vimal",
+    "CLASS AND SECTION": "XI C",
+    "Quote": "“Whenever you feel like quitting, think about why you started.” \nWhenever I feel demotivated or feel like giving up, this quote reminds me of all the reasons i started and fills me up with enthusiasm to be successful.",
+    "Famous Personality": "A.P.J Abdul Kalam has inspired me in a lot of ways. The missile man of India is a fantastic example of how humility and simplicity can go a long way. After gaining success, one of the most important things to remember is to stay grounded."
   }
  ];
