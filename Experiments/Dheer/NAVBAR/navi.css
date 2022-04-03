@@ -61,4 +61,9 @@ a:hover{
 
 .end{
   padding-right: 1cm;
+  margin-right: 1cm;
+}
+
+a.end,a.hover{
+  background: #ff7f57;
 }
