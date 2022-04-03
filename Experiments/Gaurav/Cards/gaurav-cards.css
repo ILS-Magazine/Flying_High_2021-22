@@ -78,16 +78,16 @@
 
 .articleCard:hover{
     background-size: 120%;
-    animation: cardHoverAnimation infinite alternate 4s;
-    -webkit-animation: cardHoverAnimation 4s;
+    animation: cardHoverAnimation 10s;
+    -webkit-animation: cardHoverAnimation 10s;
 }
 
 @keyframes cardHoverAnimation {
     from{
-        background-position: 100% 0%;
+        background-position: 0% 0%;
     }
     to{
-        background-position: 0% 50%;
+        background-position: 100% 100%;
     }
 }
 

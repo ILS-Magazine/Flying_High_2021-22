@@ -1,25 +1,64 @@
+body{
+    background-color: var(--light);
+}
+
 .studentWriteUpWrapper{
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     width: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+    .studentWriteUpWrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 550px) {
+    .studentWriteUpWrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
 .studentWriteUp{
-    background-color: var(--grey300);
-    border: 2px solid var(--black);
+    position: relative;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--accent3);
+    /* border: 2px solid black; */
+
 }
 
 .studentProfile{
     display: flex;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: fit-content;
+    background-color: var(--accent4);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
 }
 
-.studentProfile img{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.studentProfile p{
+    text-align: center;
+    margin: 0 20px;
 }
