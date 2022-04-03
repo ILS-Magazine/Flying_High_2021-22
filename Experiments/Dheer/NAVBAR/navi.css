@@ -20,7 +20,7 @@ nav{
 }
 
 label.logo{
-  padding-left: 10px;
+  padding-left: 12px;
   vertical-align: bottom;
   color:rgb(255, 255, 255);
   font-size: 35px;
@@ -66,4 +66,10 @@ a:hover{
 
 a.end,a.hover{
   background: #ff7f57;
+}
+
+.emblem img{
+  padding-left: 7px;
+  /* width:35px; */
+  height:55px;
 }
