@@ -14,9 +14,7 @@
     -o-transition: 0.3s ease-in-out;
 }
 
-
-
-:root {
+:root { 
     /* BG Color Variables */
     --light: #f8efe6;
     --dark: #020f17;
