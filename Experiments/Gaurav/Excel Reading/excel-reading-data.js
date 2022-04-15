@@ -355,5 +355,11 @@ var sampleData = [
     "CLASS AND SECTION": "XI C",
     "Quote": "“Whenever you feel like quitting, think about why you started.” \nWhenever I feel demotivated or feel like giving up, this quote reminds me of all the reasons i started and fills me up with enthusiasm to be successful.",
     "Famous Personality": "A.P.J Abdul Kalam has inspired me in a lot of ways. The missile man of India is a fantastic example of how humility and simplicity can go a long way. After gaining success, one of the most important things to remember is to stay grounded."
+  },
+  {
+    "UCID": "Quote52",
+    "NAME": "Krishansh Dhawan",
+    "CLASS AND SECTION": "XI B",
+    "Quote": "I am going to apply for art school tommorow, hope they don't reject me."
   }
  ];

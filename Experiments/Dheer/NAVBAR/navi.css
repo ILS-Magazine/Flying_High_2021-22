@@ -64,6 +64,19 @@ a.end{
   background: #ff7f57;
 }
 
+
+.dropdown__menu{
+  display: block;
+  position:absolute;
+  left: 50;
+  top: 100%;
+
+}
+
+.dropdown__menu ul{
+  display: block;
+  
+}
 .darkModeButton {
   height: 25px;
   width: 25px;
@@ -83,5 +96,7 @@ a.end{
 }
 
 .darkModeButton:hover {
-  background-color: #aaaaaa55;
+  background-color: #aaaaaa5e;
 }
+
+/*MOBILE NAVBAR/*
