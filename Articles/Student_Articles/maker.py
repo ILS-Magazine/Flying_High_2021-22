@@ -1,33 +1,18 @@
 import pandas as pd
 
-df = pd.read_excel('Committee.xlsx')
-short = df["Short"]
-full = df["Full"]
-head = df["Head"]
-members = df["Members"]
-color = df["Colours"]
-style = df["Additional_styles"]
+df = pd.read_excel('Grade 3 &4 articles.xlsx')
+name = df["NAME"]
+grade = df["CLASS"]
+topic = df["TOPIC"]
+article = df["ARTICLE"]
 
-x = len(short)
+x = len(name)
 
 for i in range(0, x):
 
-    #COMMITEE LOGOS
-    logo = "../C_Logos/"+str(short[i])+".svg"
-
-    #TEXT COLOUR
-    if color[i] == "#FFBC42":
-        col = "black"
-    elif color[i] == "#FF718F":
-        col = "black"
-    elif color[i] == "#06D6A0":
-        col = "black"
-    else:
-        col = "white"
-
     #MEMBERS
-    member1 = members[i].replace("(", "<li>")
-    member = member1.replace(")", "</li>")
+    member1 = members[i].replace("(", "<p>")
+    member = member1.replace(")", "</p><br>")
 
     #COMMITTEE ARTICLES
     f = open('C_Articles\\'+str(short[i])+".txt", "r")
@@ -49,7 +34,7 @@ for i in range(0, x):
         head_desc = 'Student heads: '
 
     #WRITING THE HTML
-    html = open(str(short[i])+".html", "w")
+    html = open(str(ucid[i])+".html", "w")
     code = """
     <!DOCTYPE html>
         <html lang="en">
