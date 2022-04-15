@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
   text-decoration: none;
   list-style: none;
   transition: display 10s;
@@ -10,11 +10,11 @@
   -o-transition: display 10s;
 }
 
-body{
+body {
   background-color: var(--light);
 }
 
-.navbarWrapper{
+.navbarWrapper {
   background: #fC9676;
   height: 60px;
   /* bottom: 0px; */
@@ -33,21 +33,21 @@ body{
   -o-border-radius: 0 0 5px 5px;
 }
 
-.emblem{
+.emblem {
   height: 100%;
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   margin: 0 5px;
 }
 
-nav ul li a{
+nav ul li a {
   color: var(--white);
   font-weight: 600;
   font-size: 18px;
@@ -61,27 +61,27 @@ nav ul li a{
 }
 
 
-a:hover{
+a:hover {
   background: #ff7f57;
   /* transition: .65s; */
-} 
+}
 
-a.end{
+a.end {
   background: #ff7f57;
 }
 
-.navbarWrapper:hover ~ .dropdownMenu{
+.navbarWrapper:hover~.dropdownMenu {
   display: block;
 }
 
-.dropdownMenu{
+.dropdownMenu {
   display: none;
   position: absolute;
   right: 20px;
   top: 70px;
 }
 
-.dropdownMenu ul{
+.dropdownMenu ul {
   background-color: #ddd;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -92,7 +92,7 @@ a.end{
   padding: 5px 0;
 }
 
-.dropdownMenu ul li{
+.dropdownMenu ul li {
   padding: 5px 10px;
 }
 
@@ -119,4 +119,3 @@ a.end{
 }
 
 /*MOBILE NAVBAR/*
-

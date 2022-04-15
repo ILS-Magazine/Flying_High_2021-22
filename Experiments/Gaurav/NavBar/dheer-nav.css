@@ -1,0 +1,113 @@
+body {
+    background-color: var(--light);
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+}
+
+nav>* {
+    transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+    -webkit-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+    -moz-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+    -ms-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+    -o-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+}
+
+nav ul.navElements {
+    background: #fC9676;
+    list-style: none;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 0px 10px 0 #00000077;
+    position: fixed;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+
+nav ul.navElements li {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+nav ul.navElements li:hover {
+    background-color: #ff7f57;
+}
+
+nav ul.navElements li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav ul.moreElements {
+    padding: 5px 0;
+    width: fit-content;
+    background-color: var(--dark);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul.moreElements li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+nav ul.moreElements li:hover {
+    background-color: #ddd;
+}
+
+nav ul.navElements:hover ~ ul.moreElements {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul.navElements:active ~ ul.moreElements {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.moreElements:hover {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.darkModeButton {
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    background-image: url('moon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-left: 5px;
+}
