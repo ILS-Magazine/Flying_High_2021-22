@@ -6,12 +6,17 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
+nav a{
+    text-decoration: none;
+    color: var(--white);
+}
+
 nav>* {
-    transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
-    -webkit-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
-    -moz-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
-    -ms-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
-    -o-transition: visibility 2s cubic-bezier(0, 2.06, 1, 1), opacity 2s cubic-bezier(0, 2.06, 1, 1);
+    transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -webkit-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -moz-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -ms-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -o-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
 }
 
 nav div.navElements {
@@ -21,11 +26,12 @@ nav div.navElements {
     justify-content: space-between;
     padding: 0 10px;
     /* border-radius: 0 0 5px 5px; */
-    /* box-shadow: 0px 0px 10px 0 #00000077; */
+    box-shadow: 0px 0px 10px 0 #00000077;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     border-bottom: solid 1px var(--grey600);
-    
 }
 
 nav div.navElements ul.navElementsList {
@@ -47,8 +53,6 @@ nav div.navElements ul.navElementsList li {
 nav div.navElements ul.navElementsList li:hover, nav div.navElements ul.navElementsList li:focus, nav div.navElements ul.navElementsList li:active {
     /* background-color: var(--grey700); */
     border-bottom: 2px solid white;
-    /* border */
-
 }
 
 nav div.navElements ul.navElementsList li a {
@@ -87,13 +91,13 @@ nav ul.moreElements li:hover {
     background-color: var(--grey700);
 }
 
-nav div.navElements:hover ~ ul.moreElements, nav div.navElements:focus ~ ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
+nav div.navElements:hover~ul.moreElements, nav div.navElements:focus~ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
     display: block;
     opacity: 1;
     visibility: visible;
 }
 
-nav div.navElements img.logo{
+nav div.navElements img.logo {
     height: 35px;
     /* padding: 0px; */
     /* margin-right: auto; */
@@ -101,15 +105,15 @@ nav div.navElements img.logo{
     /* margin: 5px 10px; */
 }
 
-.dark{
+.dark {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.end::after{
+.end::after {
     content: '';
-    background-image: url('down.svg');
+    background-image: url('./Images/NavBar/down.svg');
     height: 16px;
     width: 16px;
     background-position: 0 3px;
@@ -123,7 +127,7 @@ nav div.navElements img.logo{
     height: 22px;
     width: 22px;
     background-color: transparent;
-    background-image: url('moon.svg');
+    background-image: url('./Images/NavBar/moon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 22px;
@@ -134,6 +138,48 @@ nav div.navElements img.logo{
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: 25px; 
+    -o-border-radius: 25px;
     /* margin-left: 5px; */
+}
+
+.mobile-appear{
+    display: none;
+}
+
+.pageWrapper{
+    margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+    nav div.navElements {
+        bottom: 0;
+        top: auto;
+    }
+
+    .end::after {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    nav ul.moreElements {
+        top: auto;
+        bottom: 60px;
+    }
+    nav div.navElements ul.navElementsList li:hover, nav div.navElements ul.navElementsList li:focus, nav div.navElements ul.navElementsList li:active {
+        /* background-color: var(--grey700); */
+        border-top: 2px solid white;
+        border-bottom: none;
+    }
+    .mobile-disappear{
+        display: none;
+    }
+    .mobile-appear{
+        display: block;
+    }
+    .pageWrapper{
+        margin-top: 0;
+    }
 }
