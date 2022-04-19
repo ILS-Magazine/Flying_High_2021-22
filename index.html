@@ -5,13 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Mode</title>
-    <link rel="stylesheet" href="components.css">
-    <link rel="stylesheet" href="index.css">
-    <script src="script.js" defer></script>
+    <title>NavBar</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./components.css">
 </head>
 
-<body class="body">
-    <h1>Hello</h1>
+<body>
+    <nav>
+        <div class="navElements">
+            <img src="./Experiments/Gaurav/NavBar/ILS Logo.svg" alt="Logo" class="logo">
+            <ul class="navElementsList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Editorial</a></li>
+                <li><a href="#">Timeline</a></li>
+                <li class="end"><a href="./dheer-nav.html">More</a></li>
+                <li class="dark"><button class=" darkModeButton" onclick="checkDarkMode()"></button></li>
+            </ul>
+        </div>
+        <ul class="moreElements">
+            <li>Advertisements</li>
+            <li>Articles</li>
+            <li>Galley</li>
+            <li>Staff</li>
+            <li>Honour Roll</li>
+        </ul>
+    </nav>
+    <script src="../../Gaurav/Dark Mode Buttons/gaurav-dark-mode.js"></script>
 </body>
+
 </html>
