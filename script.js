@@ -19,14 +19,14 @@ function checkDarkMode() {
 
 function darkMode() {
     var root = document.querySelector(':root');
-    root.style.setProperty('--light', '#020f17');
+    root.style.setProperty('--light', '#fffcf9');
     root.style.setProperty('--dark', '#f8efe6');
     darkModeButton.style.backgroundImage = "url(./Images/NavBar/sun.svg)";
 }
 
 function lightMode() {
     var root = document.querySelector(':root');
-    root.style.setProperty('--dark', '#020f17');
+    root.style.setProperty('--dark', '#fffcf9');
     root.style.setProperty('--light', '#f8efe6');
     darkModeButton.style.backgroundImage = "url(./Images/NavBar/moon.svg)";
 }
