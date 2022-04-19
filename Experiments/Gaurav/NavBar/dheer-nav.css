@@ -75,19 +75,7 @@ nav ul.moreElements li:hover {
     background-color: #ddd;
 }
 
-nav ul.navElements:hover ~ ul.moreElements {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-}
-
-nav ul.navElements:active ~ ul.moreElements {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-}
-
-ul.moreElements:hover {
+nav ul.navElements:hover ~ ul.moreElements, nav ul.navElements:focus ~ ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
     display: block;
     opacity: 1;
     visibility: visible;
