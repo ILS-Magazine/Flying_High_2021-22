@@ -1,11 +1,11 @@
-.cardsGrid{
+.cardsGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     padding: 50px;
 }
 
-.card{
+.card {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -14,13 +14,29 @@
     overflow: hidden;
 }
 
-.cardImage img{
+.cardImage img {
     background-color: #eee;
     width: 100%;
 }
 
-.cardName{
+.cardName {
     text-align: center;
     padding: 10px;
     background-color: #eee;
+}
+
+@media (max-width: 1000px) {
+    .cardsGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 800px) {
+    .cardsGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .cardsGrid {
+        grid-template-columns: 1fr;
+    }
 }

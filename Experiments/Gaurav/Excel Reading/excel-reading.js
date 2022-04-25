@@ -1,4 +1,23 @@
-console.log(sampleData[1]["NAME"]);
+// loadJSON method to open the JSON file.
+function loadJSON(path, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          success(JSON.parse(xhr.responseText));
+        }
+        else {
+          error(xhr);
+        }
+      }
+    };
+    xhr.open('GET', path, true);
+    xhr.send();
+  }
+
+  loadJSON("https://opensheet.elk.sh/11c9WJOO80x3nCHA-yDluTbN1-ofJaymPq98VksoJMgU/Form%20Responses%201", myData,'jsonp');
+
+console.log(sampleData);
 createHTML();
 
 function createHTML() {

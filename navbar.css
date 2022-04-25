@@ -113,7 +113,7 @@ nav div.navElements img.logo {
 
 .end::after {
     content: '';
-    background-image: url('down.svg');
+    background-image: url('./Images/NavBar/down.svg');
     height: 16px;
     width: 16px;
     background-position: 0 3px;
@@ -127,7 +127,7 @@ nav div.navElements img.logo {
     height: 22px;
     width: 22px;
     background-color: transparent;
-    background-image: url('moon.svg');
+    background-image: url('./Images/NavBar/moon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 22px;
