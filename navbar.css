@@ -24,7 +24,6 @@ nav div.navElements {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
     /* border-radius: 0 0 5px 5px; */
     box-shadow: 0px 0px 10px 0 #00000077;
     position: fixed;
@@ -32,6 +31,7 @@ nav div.navElements {
     left: 0;
     width: 100%;
     border-bottom: solid 1px var(--grey600);
+    padding: 5px 10px;
 }
 
 nav div.navElements ul.navElementsList {
@@ -59,7 +59,7 @@ nav div.navElements ul.navElementsList li a {
     text-decoration: none;
     color: var(--white);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav ul.moreElements {
