@@ -30,3 +30,11 @@ function lightMode() {
     root.style.setProperty('--light', '#fffcf9');
     darkModeButton.style.backgroundImage = "url(./Images/NavBar/moon.svg)";
 }
+
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", (e) => {
+  cursor.setAttribute(
+    "style",
+    "top:" + (e.pageY - 20) + "px;" + "left:" + (e.pageX - 20) + "px;"
+  );
+});
