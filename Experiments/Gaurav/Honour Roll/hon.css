@@ -1,0 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/maghfirea');
+
+h1{
+    font-family: "maghfirea", var(--heading-font);
+}
