@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    cursor: none;
+    cursor: auto;
     overflow-x: hidden;
     width: 100vw;
     color: var(--dark);
@@ -107,9 +107,15 @@ body {
 
 .topperCards {
     display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.normalCards {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
-
 }
 
 .card {
@@ -195,7 +201,16 @@ th {
     color: var(--light);
 }
 
-
+@media (min-width: 1200px) {
+    .topper1{
+        grid-column: 2/3;
+    }  
+}
+@media (max-width: 1200px) {
+    .topperCards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 600px) {
     .topperCards {
         grid-template-columns: 1fr;
