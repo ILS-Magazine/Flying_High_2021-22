@@ -1,4 +1,4 @@
-[
+var json = [
   {
     "Name": "Akhilesh Ghate",
     "Status": "Head",
@@ -53,4 +53,4 @@
     "Grade": "IX",
     "Section": "D"
   }
- ]
+]

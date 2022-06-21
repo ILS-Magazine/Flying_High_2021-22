@@ -1,4 +1,4 @@
-[
+var json = [
   {
     "Name": "Shreyas Rajesh",
     "Grade": " XII",
@@ -107,68 +107,4 @@
     "Status": "Member",
     "Section": " B"
   }
- ][
-  {
-    "Name": "Akhilesh Ghate",
-    "Status": "Head",
-    "Grade": "XII",
-    "Status": "Member",
-    "Section": "A"
-  },
-  {
-    "Name": "Krishraj Singh Prashant Singh Thakur",
-    "Status": "Member",
-    "Grade": "XII",
-    "Status": "Member",
-    "Section": "D"
-  },
-  {
-    "Name": "Sathya Pillai",
-    "Status": "Member",
-    "Grade": "X",
-    "Status": "Member",
-    "Section": "E"
-  },
-  {
-    "Name": "K.Venkat Reddy",
-    "Status": "Member",
-    "Grade": "X",
-    "Status": "Member",
-    "Section": "E"
-  },
-  {
-    "Name": "Sudarshan Sriram",
-    "Status": "Member",
-    "Grade": "IX",
-    "Status": "Member",
-    "Section": "A"
-  },
-  {
-    "Name": "Tanreet Kaur",
-    "Status": "Member",
-    "Grade": "IX",
-    "Status": "Member",
-    "Section": "D"
-  },
-  {
-    "Name": "Tanvi Tripathi",
-    "Status": "Member",
-    "Grade": "IX",
-    "Status": "Member",
-    "Section": "E"
-  },
-  {
-    "Name": "Neha Thakur",
-    "Status": "Member",
-    "Grade": "IX",
-    "Status": "Member",
-    "Section": "A"
-  },
-  {
-    "Name": "Abhishek Kumar",
-    "Status": "Member",
-    "Grade": "IX",
-    "Status": "Member",
-    "Section": "D"
-  }
- ]
+]
