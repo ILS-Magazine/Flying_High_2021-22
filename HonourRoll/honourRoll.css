@@ -105,11 +105,20 @@ body {
     padding: clamp(10px, 4vw, 30px);
 }
 
+h1{
+    padding: 0;
+    padding-bottom: clamp(10px, 4vw, 30px);
+}
+
 .topperCards {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-gap: 30px;
     margin-bottom: 30px;
+}
+
+.topperCards10{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .normalCards {
@@ -146,6 +155,12 @@ body {
 .cardBg2{
     background: url("https://i.pinimg.com/736x/fe/8a/57/fe8a57139428affcda932662bbe277cc.jpg");
     background-size: cover;
+}
+
+.cardBg3{
+    background: url("https://i.pinimg.com/1200x/c1/a4/f1/c1a4f1c23c3dd2b03b1882af3634f92c.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
 
 .profilePic {
