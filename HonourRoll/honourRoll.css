@@ -132,7 +132,7 @@ body {
 }
 
 .cardBg {
-    background: black;
+    background-color: black;
     height: 25vh;
     position: relative;
     margin-bottom: 10vh;

@@ -17,61 +17,61 @@
 <body>
     <button class="darkModeButton" onclick="checkDarkMode()"></button>
     <h1>Articles</h1>
-    <div class="searchInputWrapper">
-        <div class="searchInput">
-            <input type="text" name="Search Bar" id="searchBar" placeholder="&#128269; Search by Article, Author or Tags">
-            <i class="material-icons" id="seachInputClear">clear</i>
-        </div>
-    </div>
-    <div class="articlesListWrapper">
-
-        <div class="articleCard"
-            style="background-image: url('https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');"
-            data-search='Aditya Singh Grade IXA Electric Cars'" data-title='Electric Cars'>
-
-            <div class=" articleCardContent">
-                <div class="articleAuthorInformation">
-                    <img src='https://edunext2-storage-cf.edunexttechnologies.com/1569527760550_D636.jpeg'
-                        alt='Aditya Singh' class="studentProfilePhoto">
-                    <p class="studentInformationText"><b class="studentName">Aditya Singh</b><br>Grade IXA</p>
-                </div>
-                <h2 class="articleTitle">Electric Cars</h2>
-                <!-- <i class="material-icons" id="shareButton">share</i> -->
+        <div class="searchInputWrapper">
+            <div class="searchInput">
+                <input type="text" name="Search Bar" id="searchBar" placeholder="&#128269; Search by Article, Author or Tags">
+                <i class="material-icons" id="seachInputClear">clear</i>
             </div>
         </div>
+        <div class="articlesListWrapper">
 
-        <div class="articleCard"
-            style="background-image: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
-            data-search='Ansh Vinod Nair Grade IIID Mathematics' data-title='Mathematics' onclick="
-            goToArticle(this.dataset.title)">
-            <div class="articleCardContent">
-                <div class="articleAuthorInformation">
-                    <img src='https://edunext2-storage-cf.edunexttechnologies.com/1553341699886_D085.JPG'
-                        alt='Ansh Vinod Nair' class="studentProfilePhoto">
-                    <p class="studentInformationText"><b class="studentName">Ansh Vinod Nair</b><br>Grade IIID</p>
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');"
+                data-search='Aditya Singh Grade IXA Electric Cars'" data-title='Electric Cars'>
+
+                <div class=" articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext2-storage-cf.edunexttechnologies.com/1569527760550_D636.jpeg'
+                            alt='Aditya Singh' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Aditya Singh</b><br>Grade IXA</p>
+                    </div>
+                    <h2 class="articleTitle">Electric Cars</h2>
+                    <!-- <i class="material-icons" id="shareButton">share</i> -->
                 </div>
-                <h2 class="articleTitle">Mathematics</h2>
-
             </div>
-        </div>
 
-        <div class="articleCard"
-            style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
-            data-search='Srinika Medewar Grade VIIID Nature is Beautiful' data-title='Nature is Beautiful' onclick="
-            goToArticle(this.dataset.title)">
-            <div class=" articleCardContent">
-                <div class="articleAuthorInformation">
-                    <img src='https://edunext-main-storage-cf.edunexttechnologies.com/idmsl/school___static/1628669422239_WhatsApp_Image_20210808_at_8.15.35_PM.jpeg'
-                        alt='Srinika Medewar' class="studentProfilePhoto">
-                    <p class="studentInformationText"><b class="studentName">Srinika Medewar</b><br>Grade VIIID</p>
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
+                data-search='Ansh Vinod Nair Grade IIID Mathematics' data-title='Mathematics' onclick="
+                goToArticle(this.dataset.title)">
+                <div class="articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext2-storage-cf.edunexttechnologies.com/1553341699886_D085.JPG'
+                            alt='Ansh Vinod Nair' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Ansh Vinod Nair</b><br>Grade IIID</p>
+                    </div>
+                    <h2 class="articleTitle">Mathematics</h2>
+
                 </div>
-                <h2 class="articleTitle">Nature is Beautiful</h2>
             </div>
+
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
+                data-search='Srinika Medewar Grade VIIID Nature is Beautiful' data-title='Nature is Beautiful' onclick="
+                goToArticle(this.dataset.title)">
+                <div class=" articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext-main-storage-cf.edunexttechnologies.com/idmsl/school___static/1628669422239_WhatsApp_Image_20210808_at_8.15.35_PM.jpeg'
+                            alt='Srinika Medewar' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Srinika Medewar</b><br>Grade VIIID</p>
+                    </div>
+                    <h2 class="articleTitle">Nature is Beautiful</h2>
+                </div>
+            </div>
+
+
+
         </div>
-
-
-
-    </div>
 
 
 

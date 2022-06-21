@@ -9,18 +9,21 @@
     <link rel='stylesheet' href='../components.css'>
     <link rel='stylesheet' href='./articles.css'>
     <script src='../script.js' defer></script>
-    <script src='./articles.js'></script>
+    <script src='./articles.js' defer></script>
+    <link rel="shortcut icon" href="../Images/Favicons/Articles.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="cursor"></div>
     <div class="cover">
-        <svg class="blob" width="100" height="65" viewBox="0 0 100 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M94.72 46.6993C94.72 45.4718 94.0517 44.4352 93.0951 43.8561V28.8896L100 25.385L50 0L0 25.385L22.4471 36.7809V54.6498C22.4471 54.6498 32.5035 64.2687 50.3642 64.2687C68.2218 64.2687 77.5497 54.6498 77.5497 54.6498V36.7809L89.8866 30.5153V43.8528C88.9332 44.4352 88.2617 45.4685 88.2617 46.696C88.2617 47.7885 88.7939 48.7066 89.5699 49.322L87.7455 59.7472H95.2363L93.4119 49.322C94.1879 48.7132 94.72 47.7918 94.72 46.6993Z"
-                fill="var(--dark)" />
-        </svg>
-        <h1>Honour Roll</h1>
+        <svg class="blob" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.25691 27.8862L27.8863 8.25678L20.4814 0.852083C19.3453 -0.284028 17.5035 -0.284028 16.3674 0.852083L0.851833 16.3674C0.306663 16.913 4.11082e-05 17.6531 0.00023505 18.4246C4.11082e-05 19.1963 0.306663 19.9359 0.852221 20.4815L8.25691 27.8862ZM20.4812 63.1487C19.9358 63.6942 19.196 64.0009 18.4245 64.0007H2.90932C1.30232 64.0009 0.000193942 62.6982 0.000193942 61.0917L0 45.5764C0 44.8049 0.306428 44.0648 0.851986 43.5195L9.94281 34.4288L12.3712 32.0005L27.8863 16.4851L47.5157 36.1146L32.0006 51.6299L20.4812 63.1487ZM36.1145 55.744L55.7439 36.1146L63.1484 43.5194C63.6944 44.0648 64.0008 44.8045 64.0008 45.5762C64.0008 46.3479 63.6944 47.0878 63.1484 47.6335L47.6331 63.1487C47.0654 63.7169 46.3207 64.0011 45.5763 64.0009C44.8318 64.0011 44.0875 63.7169 43.5192 63.1489L36.1145 55.744ZM63.1486 20.4817L52.9544 30.6757L51.6298 32.0009L32.0006 12.3714L34.1917 10.1799L43.5192 0.852473C44.6553 -0.283831 46.4973 -0.283831 47.6332 0.852279L63.1486 16.3676C63.6945 16.9132 64.0009 17.6531 64.0009 18.4248C64.0009 19.1961 63.6943 19.9361 63.1486 20.4817Z" fill="var(--dark)"/>
+            </svg>
+            
+            
+        <h1>Student Articles</h1>
         <svg class="scrollDown" onclick="window.scrollBy(0, window.innerHeight);" width="34" height="20"
             viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_439_69)">
@@ -34,6 +37,60 @@
                 </clipPath>
             </defs>
         </svg>
+    </div>
+    <div class="pageWrapper">
+        <div class="searchInputWrapper">
+            <div class="searchInput">
+                <input type="text" name="Search Bar" id="searchBar" placeholder="&#128269; Search by Article, Author or Tags">
+                <i class="material-icons" id="seachInputClear">clear</i>
+            </div>
+        </div>
+        <div class="articlesListWrapper">
+
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1617886322168-72b886573c35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');"
+                data-search='Aditya Singh Grade IXA Electric Cars'" data-title='Electric Cars'>
+
+                <div class=" articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext2-storage-cf.edunexttechnologies.com/1569527760550_D636.jpeg'
+                            alt='Aditya Singh' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Aditya Singh</b><br>Grade IXA</p>
+                    </div>
+                    <h2 class="articleTitle">Electric Cars</h2>
+                    <!-- <i class="material-icons" id="shareButton">share</i> -->
+                </div>
+            </div>
+
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
+                data-search='Ansh Vinod Nair Grade IIID Mathematics' data-title='Mathematics' onclick="
+                goToArticle(this.dataset.title)">
+                <div class="articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext2-storage-cf.edunexttechnologies.com/1553341699886_D085.JPG'
+                            alt='Ansh Vinod Nair' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Ansh Vinod Nair</b><br>Grade IIID</p>
+                    </div>
+                    <h2 class="articleTitle">Mathematics</h2>
+
+                </div>
+            </div>
+
+            <div class="articleCard"
+                style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');"
+                data-search='Srinika Medewar Grade VIIID Nature is Beautiful' data-title='Nature is Beautiful' onclick="
+                goToArticle(this.dataset.title)">
+                <div class=" articleCardContent">
+                    <div class="articleAuthorInformation">
+                        <img src='https://edunext-main-storage-cf.edunexttechnologies.com/idmsl/school___static/1628669422239_WhatsApp_Image_20210808_at_8.15.35_PM.jpeg'
+                            alt='Srinika Medewar' class="studentProfilePhoto">
+                        <p class="studentInformationText"><b class="studentName">Srinika Medewar</b><br>Grade VIIID</p>
+                    </div>
+                    <h2 class="articleTitle">Nature is Beautiful</h2>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
