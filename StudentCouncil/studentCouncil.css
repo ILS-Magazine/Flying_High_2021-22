@@ -22,7 +22,7 @@ h2{
     font-family: var(--section-heading-font);
 }
 .gradient{
-    background: linear-gradient(135deg,red,blue,white,yellow,green);
+    background: linear-gradient(135deg,#FF2400,#3F00FF,white,#FFBA00,#00FA9A);
 }
 .container{
     /* background: linear-gradient(135deg,red,blue,white,yellow,green); */
