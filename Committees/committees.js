@@ -21,7 +21,7 @@ Committees = [
     "TeacherHead": "Dr. (Mrs.) M. Jain ",
     "StudentHead1": "Akhilesh Ghate",
     "StudentHead2": "",
-    "Description": "empowers students to take up meaningful environmental activities and projects. It is a forum through which students can reach out to influence, engage their parents and neighbourhood communities to promote sound environmental behaviour. "
+    "Description": "is a forum through which students can reach out to influence, engage their parents and neighbourhood communities to promote sound environmental behaviour. "
   },
   {
     "Committee": "School Safety Committee",
@@ -101,7 +101,7 @@ Committees = [
     "TeacherHead": "Mrs. L. Chandrashekhar ",
     "StudentHead1": "Nivedita Shukla",
     "StudentHead2": "",
-    "Description": "(Social Empowerment through Work Education and Action) an endeavor byCBSEis a program that aims to focus on the mental, emotional and social health of a student."
+    "Description": "(Social Empowerment through Work Education and Action) an endeavor by CBSE is a program that aims to focus on the mental, emotional and social health of a student."
   },
   {
     "Committee": "Health And Wellness Committee",
@@ -141,7 +141,7 @@ Committees = [
     "TeacherHead": "Mrs. S. Mitra",
     "StudentHead1": "Prakhar Borgaonkar ",
     "StudentHead2": "Singarapu Tanasi",
-    "Description": "stands for \"Drop Everything and Read,\" a celebration ofreadingdesigned to remind students to makereadinga priority activity in their lives."
+    "Description": "stands for \"Drop Everything and Read,\" a celebration of reading designed to remind students to makereadinga priority activity in their lives."
   },
   {
     "Committee": "Discipline Committee",
