@@ -1,4 +1,4 @@
-[
+Committees = [
     {
       "Committee": "Student Voice Group",
       "Short Form": "SVG",
@@ -10,7 +10,7 @@
     {
       "Committee": "Hubs Of Learning",
       "Short Form": "HOLC",
-      "Teacher Head": "Mrs. S. Gupta and  Dr. (Mrs.) M. Jain",
+      "Teacher Head": "Mrs. S. Gupta and Dr. (Mrs.) M. Jain",
       "Student Head 1": "Aryan Babaria",
       "Student Head 2": "",
       "Description": "are formed for collaborative growth, promoting self - improvement and for ensuring the enhancement of the quality of education."
@@ -27,7 +27,7 @@
       "Committee": "School Safety Committee",
       "Short Form": "SSC",
       "Teacher Head": "Mrs. I. Yadav and Mrs. N. Goyal",
-      "Student Head 1": "Vedant Vadalikar ",
+      "Student Head 1": "Vedant Vadalikar",
       "Student Head 2": "",
       "Description": "is meant to make the students aware of the basic Safety needs. It promotes the protection of students from bullying, injuries, illness, harassment and other safety issues."
     },
@@ -52,7 +52,7 @@
       "Short Form": "CDG",
       "Teacher Head": "Mrs. R. Lakhanpal ",
       "Student Head 1": "Raghav Kumar Prasad ",
-      "Student Head 2": "Sanjith Santhosh ",
+      "Student Head 2": "Sanjith Santhosh",
       "Description": "consist of Senior Students. Its implementation focusses on development of critical thinking, problem solving skills across the school."
     },
     {
@@ -67,7 +67,7 @@
       "Committee": "Magazine Committee",
       "Short Form": "MC",
       "Teacher Head": "Mrs. G. Shergill",
-      "Student Head 1": "Subhashree Panigrahy  ",
+      "Student Head 1": "Subhashree Panigrahy ",
       "Student Head 2": "Harshala Kumar",
       "Description": "works throughout the year to collect best creative writings, record prestigious awards, memories in form of pictures and delivers a school magazine annually."
     },
@@ -75,9 +75,9 @@
       "Committee": "Art Integration Committee",
       "Short Form": "AIC",
       "Teacher Head": "Mrs. N. Ramchandani ",
-      "Student Head 1": "Gaurav Shah  ",
+      "Student Head 1": "Gaurav Shah ",
       "Student Head 2": "Ananya Jayaprakash Rao",
-      "Description": "is an approach to teaching that integrates the fine and performing arts as primary pathways to learning."
+      "Description": "is an approach to teaching that integratesthefine and performingartsas primary pathways to learning."
     },
     {
       "Committee": "Career Counselling Committee",
@@ -91,7 +91,7 @@
       "Committee": "Interact Club",
       "Short Form": "IC",
       "Teacher Head": "Mrs. A. Dhawan ",
-      "Student Head 1": "Hemani Rao ",
+      "Student Head 1": "Hemani Rao",
       "Student Head 2": "",
       "Description": "members carry out hands-on service projects, make international connections, develop leadership skills, and have fun in the process."
     },
@@ -99,15 +99,15 @@
       "Committee": "Sewa",
       "Short Form": "SEWA",
       "Teacher Head": "Mrs. L. Chandrashekhar ",
-      "Student Head 1": "Nivedita Shukla ",
+      "Student Head 1": "Nivedita Shukla",
       "Student Head 2": "",
-      "Description": "(Social Empowerment through Work Education and Action) an endeavor by CBSE is a program that aims to focus on the mental, emotional and social health of a student."
+      "Description": "(Social Empowerment through Work Education and Action) an endeavor byCBSEis a program that aims to focus on the mental, emotional and social health of a student."
     },
     {
       "Committee": "Health And Wellness Committee",
       "Short Form": "HAWC",
       "Teacher Head": "Mrs. G. Manaise ",
-      "Student Head 1": "Aaisha Dilip Sawlani  ",
+      "Student Head 1": "Aaisha Dilip Sawlani ",
       "Student Head 2": "Richa Sali ",
       "Description": "'s role is to build an environment that is supportive of living a healthy life style."
     },
@@ -123,7 +123,7 @@
       "Committee": "Model United Nations Committee",
       "Short Form": "MUN",
       "Teacher Head": "Mrs. L. Dam ",
-      "Student Head 1": "Harsift Kaur  ",
+      "Student Head 1": "Harsift Kaur ",
       "Student Head 2": "Vimudha Jinal Singh ",
       "Description": "help the students to develop leadership skills, research, writing, public speaking, and problem-solving skills."
     },
@@ -141,7 +141,7 @@
       "Teacher Head": "Mrs. S. Mitra",
       "Student Head 1": "Prakhar Borgaonkar ",
       "Student Head 2": "Singarapu Tanasi",
-      "Description": "stands for \"Drop Everything and Read,\" a celebration of reading designed to remind students to make reading a priority activity in their lives."
+      "Description": "stands for \"Drop Everything and Read,\" a celebration ofreadingdesigned to remind students to makereadinga priority activity in their lives."
     },
     {
       "Committee": "Discipline Committee",
@@ -160,12 +160,12 @@
       "Description": "The term ‘Life Skills’ is usually used for any of the skills needed to deal well and effectively with the challenges of life. "
     },
     {
-      "Committee": "Sports Committee ",
+      "Committee": "SportsCommittee",
       "Short Form": "SC",
       "Teacher Head": "Dr. (Mrs.) P. Nagine",
-      "Student Head 1": "Keerthivasan Anandaraj  ",
+      "Student Head 1": "Keerthivasan Anandaraj ",
       "Student Head 2": "Garistha Sharma",
-      "Description": "helps promote sports activities by motivating students and promoting team spirit by making healthy competition."
+      "Description": "helps promotesportsactivities by motivating students and promoting team spirit by making healthy competition."
     },
     {
       "Committee": "Personality Development Committee",
@@ -176,7 +176,7 @@
       "Description": "functions to create zeal amongst students towards personality enhancement. It plays a vital role in improving one's communication skills and facing the turbulent world with strides and smile."
     },
     {
-      "Committee": "Mental Health & Wellbeing Committee ",
+      "Committee": "Mental Health&WellbeingCommittee",
       "Short Form": "MHAWBC",
       "Teacher Head": "Dr. (Mrs.) S. Jamloki",
       "Student Head 1": "Kritika Kaurani ",
@@ -186,7 +186,7 @@
     {
       "Committee": "Culinary Arts Committee",
       "Short Form": "CAC",
-      "Teacher Head": "Mrs. A. Kaurani  ",
+      "Teacher Head": "Mrs. A. Kaurani ",
       "Student Head 1": "Noopur Sanjata Roul ",
       "Student Head 2": "Tanishka Shivnani",
       "Description": ""
@@ -195,7 +195,7 @@
       "Committee": "First Aid Committee",
       "Short Form": "FAC",
       "Teacher Head": "Coach Mooney ",
-      "Student Head 1": "Riya Trivedi ",
+      "Student Head 1": "Riya Trivedi",
       "Student Head 2": "",
       "Description": "aims to provide immediate, lifesaving, medical care before the arrival of further medical help."
     }
