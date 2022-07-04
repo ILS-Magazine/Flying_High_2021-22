@@ -220,11 +220,9 @@ function cList() {
     <div class="committee" onclick="cClick('${shortForm}', '${cName}', '${teacherHead}', '${studentHead1}', '${studentHead2}')">
       <img src="./Committee Logos/${shortForm}.svg" alt="${cName}" class="cLogo">
       <p class="cName">${cName}</p>
+      <p class="cDescription">${description}</p>
     </div>`
       ;
-
-   //  localStorage.setItem("fullForm", fullForm);
-
     
     // Adding to HTML
     document.querySelector(".pageWrapper").innerHTML += cDiv;
