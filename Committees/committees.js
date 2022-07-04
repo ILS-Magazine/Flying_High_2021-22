@@ -202,6 +202,8 @@ Committees = [
 ]
 
 localStorage.setItem("committee", "AIC");
+localStorage.setItem("committeeFName", "Art Integration Committee");
+
 
 function cList() {
   Committees.forEach(committee => {
@@ -215,16 +217,25 @@ function cList() {
 
     // Creating Committee Div
     cDiv = `
-    <div class="committee">
+    <div class="committee" onclick="cClick('${shortForm}', '${cName}', '${teacherHead}', '${studentHead1}', '${studentHead2}')">
       <img src="./Committee Logos/${shortForm}.svg" alt="${cName}" class="cLogo">
       <p class="cName">${cName}</p>
-      <p class="cDescription">${description}</p>
     </div>`
       ;
+
+   //  localStorage.setItem("fullForm", fullForm);
+
     
     // Adding to HTML
     document.querySelector(".pageWrapper").innerHTML += cDiv;
   })
-}
+};
 
-cList()
+cList();
+
+function cClick(shortForm, fullForm, teacherHead, studentHead1, studentHead2){
+  localStorage.setItem("shortForm", shortForm);
+  localStorage.setItem("fullForm", fullForm);
+
+  window.open("/Committees/committee.html","_self");
+};
