@@ -141,7 +141,7 @@ Committees = [
     "TeacherHead": "Mrs. S. Mitra",
     "StudentHead1": "Prakhar Borgaonkar ",
     "StudentHead2": "Singarapu Tanasi",
-    "Description": "stands for \"Drop Everything and Read,\" a celebration of reading designed to remind students to makereadinga priority activity in their lives."
+    "Description": "stands for \"Drop Everything and Read,\" a celebration of reading designed to remind students to make reading a priority activity in their lives."
   },
   {
     "Committee": "Discipline Committee",
