@@ -1,4 +1,4 @@
-var json = [
+var jsonList = [
   {
     "Name": "Nivedita Shukla",
     "Status": "Head",

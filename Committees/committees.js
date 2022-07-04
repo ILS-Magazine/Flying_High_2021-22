@@ -202,7 +202,7 @@ Committees = [
 ]
 
 localStorage.setItem("committee", "AIC");
-localStorage.setItem("committeeFName", "Art Integration Committee");
+localStorage.setItem("fullForm", "Art Integration Committee");
 
 
 function cList() {
