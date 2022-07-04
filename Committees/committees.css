@@ -63,6 +63,6 @@
 @media(max-width: 500px) {
     .pageWrapper {
         grid-template-columns: 1fr;
-        margin: 75px;
+        margin: 50px;
     }
 }
