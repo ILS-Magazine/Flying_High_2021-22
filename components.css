@@ -50,6 +50,7 @@
     --content-font: "Source Sans Pro", sans-serif;
     --small-content-font: "Source Sans Pro", sans-serif;
 
+    --variable-padding: "clamp(10px, 4vw, 30px)";
 }
 
 
@@ -102,6 +103,7 @@ h1{
 body{
     font-family: var(--content-font);
     font-weight: 200;
+    font-size: clamp(16px, calc(3vw), 20px);
 }
 
 html {
