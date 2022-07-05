@@ -22,6 +22,10 @@
     margin: 75px;
 }
 
+.committee{
+    cursor: pointer;
+}
+
 .cLogo{
     width: 100%;
 }
