@@ -14,7 +14,7 @@
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
   background: var(--light);
-  color: #fff;
+  color: var(--light);
   overflow-x: hidden;
   padding-bottom: 50px;
 }
@@ -34,17 +34,14 @@ body {
   text-align: center;
 }
 
-h1 {
-  
-  
-}
+
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: var();
-  padding: 50px 0;
+  background: var(--light);
+  /* padding: 50px 0; */
 }
 
 .timeline ul li {
@@ -53,7 +50,7 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: var(--accent1);
+  background: var(--accent2);
 }
 
 .timeline ul li::after {
@@ -74,7 +71,7 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #f45b69;
+  background: var(--accent1);
 }
 
 .timeline ul li div::before {
