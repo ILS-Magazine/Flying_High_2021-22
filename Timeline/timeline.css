@@ -31,6 +31,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  
 }
 
 /* TIMELINE
@@ -133,6 +134,7 @@ time {
 }
 
 .timeline ul li.in-view div {
+  
   transform: none;
   visibility: visible;
   opacity: 1;
