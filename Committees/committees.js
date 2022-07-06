@@ -226,7 +226,7 @@ Committees = [
   }
 ]
 
-localStorage.setItem("committee", "AIC");
+localStorage.setItem("shortForm", "AIC");
 localStorage.setItem("fullForm", "Art Integration Committee");
 
 
