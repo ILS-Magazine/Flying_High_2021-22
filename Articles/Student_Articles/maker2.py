@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_excel('Magazine (1).xlsx','Grade 1')
+df = pd.read_excel('Magazine (1).xlsx','grade 9')
 name = df["NAME"]
 grade = df["CLASS"]
 imglk = df["IMAGE LINK"]
