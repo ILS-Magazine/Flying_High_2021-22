@@ -1,5 +1,6 @@
 .student{
-    width: 160px;
+   
+    width: 250PX;
     display:inline-block;
     float: left;
 }
@@ -10,10 +11,11 @@ h3{
     text-align: center;
 }
 img{
+    border-radius: 100%;
     object-fit: cover;
     object-position: top;
-    height: 160px;
-    width: 160px;
+    height: 250PX;
+    width: 250PX;
 }
 p{text-align: justify;  
 
