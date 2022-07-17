@@ -1,0 +1,22 @@
+.student{
+    width: 160px;
+    display:inline-block;
+    float: left;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    object-fit: cover;
+    object-position: top;
+    height: 160px;
+    width: 160px;
+}
+p{text-align: justify;  
+
+
+
+}
