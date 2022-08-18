@@ -144,13 +144,124 @@ cArticles = [
 
 ]
 
+cImages = [
+    {
+      "ShortForm": "SVG",
+      "Image": "https://drive.google.com/uc?id=1MBkss8MbUus0NGNWj_veuOc9ymkhZl9B"
+    },
+    {
+      "ShortForm": "HOLC",
+      "Image": "https://drive.google.com/uc?id=10cY-jnofUgLKZCVklFaQ7nc8Pcqqr655"
+    },
+    {
+      "ShortForm": "ECOC",
+      "Image": ""
+    },
+    {
+      "ShortForm": "SSC",
+      "Image": "https://drive.google.com/uc?id=1kfv-LB3TNoZeX-di414DeZCm6M3Qkgsb"
+    },
+    {
+      "ShortForm": "EC",
+      "Image": "https://drive.google.com/uc?id=1IiLuyGBg5Yx2fb4qOcZQD52cD0uRimKC"
+    },
+    {
+      "ShortForm": "GAC",
+      "Image": "https://drive.google.com/uc?id=1XdEoPZsRy_cL8LmVkod4RsF9CmxATyRR"
+    },
+    {
+      "ShortForm": "CDG",
+      "Image": "https://drive.google.com/uc?id=1q2iwZKy78nR2VDG8TG1ZK06PgAlsexIe"
+    },
+    {
+      "ShortForm": "SCC",
+      "Image": "https://drive.google.com/uc?id=1FWvRm4pCfeh8js82GWcLD_ivcTV7XoSU"
+    },
+    {
+      "ShortForm": "MC",
+      "Image": "https://drive.google.com/uc?id=1RYV1n0UZv8FZbHgz5aK-t2ZZWK3DGcXi"
+    },
+    {
+      "ShortForm": "AIC",
+      "Image": "https://drive.google.com/uc?id=1SgL4fsaxLF5DDEtgPSDBTXM8PfN9JXTi"
+    },
+    {
+      "ShortForm": "CCC",
+      "Image": "https://drive.google.com/uc?id=1H-7BmrF9WPeIORvBNy1nvQZwvxF1xx_A"
+    },
+    {
+      "ShortForm": "IC",
+      "Image": ""
+    },
+    {
+      "ShortForm": "SEWA",
+      "Image": ""
+    },
+    {
+      "ShortForm": "HAWC",
+      "Image": "https://drive.google.com/uc?id=1-lsYC73rHiK9zJAznCrx25_De-X0OGSh"
+    },
+    {
+      "ShortForm": "CC",
+      "Image": ""
+    },
+    {
+      "ShortForm": "MUN",
+      "Image": "https://drive.google.com/uc?id=117-s1P2HrQLBFpFd2UmJHpuMGNtsqSWN"
+    },
+    {
+      "ShortForm": "ELC",
+      "Image": "https://drive.google.com/uc?id=1loPgopegq-THFhokacrQRpXPySmyDaVr"
+    },
+    {
+      "ShortForm": "DEAR",
+      "Image": "https://drive.google.com/uc?id=108FQLS3IyOOkqNw50A001Allihgf2mW-"
+    },
+    {
+      "ShortForm": "DC",
+      "Image": "https://drive.google.com/uc?id=1GBgXQiDpu4vgwdRf51fDrrXwwoCqvnpj"
+    },
+    {
+      "ShortForm": "LSC",
+      "Image": ""
+    },
+    {
+      "ShortForm": "SC",
+      "Image": "https://drive.google.com/uc?id=1HCXh1TjrrvfEneDnPwt0B3ihOeQLjZyu"
+    },
+    {
+      "ShortForm": "PDC",
+      "Image": "https://drive.google.com/uc?id=1lRh7OTXOYyR39-X4lDFWNyh4S2zyil6B"
+    },
+    {
+      "ShortForm": "MHAWBC",
+      "Image": "https://drive.google.com/uc?id=1YXzDVQPYQ5QR8KB5XsDd9mcl28QLN0cK"
+    },
+    {
+      "ShortForm": "CAC",
+      "Image": "https://drive.google.com/uc?id=1445FSSre62FMqLu7NZCZN-LcFS6weqXU"
+    },
+    {
+      "ShortForm": "FAC",
+      "Image": "https://drive.google.com/uc?id=1gzB8TBrJVLiMYt19j8iLqhVT7Eiolc-5"
+    }
+   ]
+
 function getArticles() {
     cArticles.forEach(committee => {
         // Getting Details
         shortFormFromList = committee.ShortForm;
         if (shortFormFromList == shortForm){
             cArticle = committee.Article;
-            document.querySelector(".cArticle > p").innerHTML = cArticle;
+            document.querySelector(".cArticle > p.cArticleContent").innerHTML = cArticle;
+        }
+    })
+    cImages.forEach(committee => {
+        shortFormFromList = committee.ShortForm;
+        if (shortFormFromList == shortForm){
+            cImage = committee.Image;
+            console.log(cImage)
+            document.querySelector(".cArticle > img.cImage").src = cImage;
         }
     })
 }

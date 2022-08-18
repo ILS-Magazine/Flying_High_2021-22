@@ -65,13 +65,27 @@ h2 {
     padding: clamp(20px, 8vw, 60px);
 }
 
-iframe{
+h2.cImage {
+    padding-top: 30px;
+}
+
+img.cImage {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
+    -ms-border-radius: 0px;
     -o-border-radius: 10px;
 }
 
@@ -83,5 +97,9 @@ iframe{
 
     .cMemberList, .cArticle {
         width: 100%;
+    }
+
+    .cMemberList {
+        position: relative;
     }
 }

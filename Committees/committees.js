@@ -86,7 +86,7 @@ Committees = [
     "TeacherHead": "Mrs. N. Ramchandani",
     "StudentHead1": "Gaurav Shah",
     "StudentHead2": "Ananya Jayaprakash Rao",
-    "Description": "is an approach to teaching that integratesthefine and performingartsas primary pathways to learning.",
+    "Description": "is an approach to teaching that integrates the fine and performing arts as primary pathways to learning.",
     "Article": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XL84SnK2yR8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
   },
   {
@@ -185,7 +185,7 @@ Committees = [
     "TeacherHead": "Dr. (Mrs.) P. Nagine",
     "StudentHead1": "Keerthivasan Anandaraj",
     "StudentHead2": "Garistha Sharma",
-    "Description": "helps promotesportsactivities by motivating students and promoting team spirit by making healthy competition.",
+    "Description": "helps promote sports activities by motivating students and promoting team spirit by making healthy competition.",
     "Article": " "
   },
   {
