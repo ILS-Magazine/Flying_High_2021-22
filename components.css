@@ -92,6 +92,10 @@ h1{
     color: var(--dark);
 }
 
+h1.heading{
+    font-family: 'agright', sans-serif;
+}
+
 .section-heading{
     text-align: center;
     font-family: var(--section-heading-font);

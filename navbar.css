@@ -2,6 +2,47 @@ body {
     background-color: var(--light);
 }
 
+
+/* General Button CSS */
+
+button {
+    padding: 0.5em 1em;
+    border-radius: 1.75em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    outline: none;
+    border: none;
+    /* background-color: var(--dark); */
+    cursor: pointer;
+}
+
+/* Dark Mode Button */
+
+.darkModeButton {
+    font-size: 2em;
+    font-family: 'Staatliches', "Poppins";
+    /* border: 2px solid var(--dark); */
+    background: none;
+    padding: 0.1em 1em;
+    outline: none;
+    border: none;
+    border-radius: 1.75em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Image within the Dark Mode Button */
+.darkModeButtonIcon{
+    height: 30px;
+}
+
 nav {
     font-family: "Poppins", sans-serif;
 }

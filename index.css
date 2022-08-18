@@ -1,43 +1,37 @@
 body {
-    background-color: var(--light);
+    background-color: var(--dark);
+    color: var(--light);
 }
 
-/* General Button CSS */
-
-button {
-    padding: 0.5em 1em;
-    border-radius: 1.75em;
-    -webkit-border-radius: 2em;
-    -moz-border-radius: 2em;
-    -ms-border-radius: 2em;
-    -o-border-radius: 2em;
-    outline: none;
-    border: none;
-    /* background-color: var(--dark); */
-    cursor: pointer;
+.headingWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 15vh;
 }
 
-/* Dark Mode Button */
-
-.darkModeButton {
-    font-size: 2em;
-    font-family: 'Staatliches', "Poppins";
-    /* border: 2px solid var(--dark); */
-    background: none;
-    padding: 0.1em 1em;
-    outline: none;
-    border: none;
-    border-radius: 1.75em;
-    -webkit-border-radius: 2em;
-    -moz-border-radius: 2em;
-    -ms-border-radius: 2em;
-    -o-border-radius: 2em;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.headingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
 }
 
-/* Image within the Dark Mode Button */
-.darkModeButtonIcon{
-    height: 30px;
+h1.heading{
+    font-size: clamp(30px, calc(20px + 4vw), 72px);
+    text-align: left;
+    padding: 0;
+    color: var(--light);
+
+}
+
+.magazineCoverImage{
+    height: 70vh;
+    margin-right: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
