@@ -43,13 +43,18 @@
 
     /* Font Families */
 
-    --heading-font: "Playfair Display", serif;
+    --heading-font:
+    "Playfair Display", serif;
     /* --section-heading-font: "Alice", serif; */
-    --section-heading-font: "Montserrat", sans-serif;
-    --content-font: "Source Sans Pro", sans-serif;
-    --small-content-font: "Source Sans Pro", sans-serif;
+    --section-heading-font:
+    "Montserrat", sans-serif;
+    --content-font:
+    "Source Sans Pro", sans-serif;
+    --small-content-font:
+    "Source Sans Pro", sans-serif;
 
-    --variable-padding: "clamp(10px, 4vw, 30px)";
+    --variable-padding:
+    "clamp(10px, 4vw, 30px)";
 }
 
 
