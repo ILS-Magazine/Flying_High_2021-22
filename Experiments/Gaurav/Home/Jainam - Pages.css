@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;900&display=swap');
+
+body{
+    background: linear-gradient(45deg,rgb(252,221,118),rgb(255,183,100));
+}
+.Pages{
+    color: white;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.pages{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+.page-button{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
