@@ -132,12 +132,26 @@ nav ul.moreElements li:hover {
     background-color: var(--grey700);
 }
 
-nav div.navElements:hover~ul.moreElements, nav div.navElements:focus~ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
+/* nav div.navElements:hover~ul.moreElements, nav div.navElements:focus~ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+} */
+
+nav div.invbtn:hover ~ ul.moreElements, ul.moreElements:hover, ul.moreElements:active{
     display: block;
     opacity: 1;
     visibility: visible;
 }
 
+div.invbtn{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    right: 70px;
+    /* background-color: aqua; */
+}
 
 nav div.navElements img.logo {
     height: 35px;
@@ -193,6 +207,9 @@ nav div.navElements img.logo {
 }
 
 @media (max-width: 600px) {
+    nav{
+        display: none;
+    }
     nav div.navElements {
         bottom: 0;
         top: auto;
