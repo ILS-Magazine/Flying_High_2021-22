@@ -159,7 +159,7 @@ h1.heading {
     font-size: 0.75em;
 }
 
-.pages > .page-button:hover{
+.pages > .only-page-button:hover{
     cursor: pointer;
     animation: pageHover 1s infinite alternate ease-in-out;
     -webkit-animation: pageHover 1s infinite alternate ease-in-out;
@@ -183,6 +183,15 @@ h1.heading {
 }
 }
 
+.high-commisioners-message{
+    width: 100%;
+    height: calc(100vh - 60px);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 
 @media (min-width: 800px) {
     .mission-visionWarpper {
