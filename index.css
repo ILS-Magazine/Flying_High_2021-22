@@ -3,22 +3,23 @@ body {
     color: var(--light);
 }
 
-/* .headingWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 15vh;
-} */
+section {
+    padding: 30px;
+}
 
-.headingWrapper{
+h2 {
+    text-align: center;
+}
+
+.headingWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column-reverse;
+    padding-top: 0;
 }
 
-.headingText{
+.headingText {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +30,7 @@ body {
     /* height: 70vh; */
 }
 
-h1.heading{
+h1.heading {
     font-size: clamp(30px, calc(20px + 4vw), 72px);
     /* text-align: left; */
     padding: 0;
@@ -38,7 +39,7 @@ h1.heading{
     padding: 30px;
 }
 
-.downArrow{
+.downArrow {
     position: absolute;
     bottom: 5%;
     cursor: pointer;
@@ -47,52 +48,41 @@ h1.heading{
 }
 
 @keyframes bouncing {
-    0%{
+    0% {
         transform: translateY(-20px);
         -webkit-transform: translateY(-20px);
         -moz-transform: translateY(-20px);
         -ms-transform: translateY(-20px);
         -o-transform: translateY(-20px);
-}
+    }
 }
 
-/* .magazineCoverImage{
-    height: 70vh;
-    margin-right: 50px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    overflow: hidden;
-} */
-
-.magazineCoverImage{
+.magazineCoverImage {
     width: 100vw;
     margin-bottom: 30px;
     position: relative;
 }
 
-.magazineCoverImagePic{
+.magazineCoverImagePic {
     width: 100%;
 }
 
-.magazineCoverImageOverlay{
+.magazineCoverImageOverlay {
     width: 100%;
     height: 50%;
     position: absolute;
-    background: linear-gradient(180deg,#020f1700, #020f17ff);
+    background: linear-gradient(180deg, #020f1700, #020f17ff);
     bottom: 0;
 }
 
-.mission-visionWarpper{
+.mission-visionWarpper {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
 }
 
-.mission-visionContent{
+.mission-visionContent {
     padding: 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -101,21 +91,143 @@ h1.heading{
     -o-border-radius: 5px;
 }
 
-.mission-visionContent:nth-child(1){
+.mission-visionContent:nth-child(1) {
     background: linear-gradient(270deg, #159F4D, #67EB9C);
 }
 
-.mission-visionContent:nth-child(2){
+.mission-visionContent:nth-child(2) {
     background: linear-gradient(90deg, #3ACAEF, #10A2CA);
 }
 
-.mission-visionContent > h2{
+.mission-visionContent>h2 {
     text-align: center;
     margin-bottom: 10px;
 }
 
+.pagesWarpper {
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.pagesTitle {
+    margin-bottom: 30px;
+}
+
+.page-button {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.page-button:hover {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.board-member {
+    text-align: center;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boardWrapper {
+    background: black;
+}
+
+.board-member>p {
+    font-size: 0.75em;
+}
+
 @media (min-width: 800px) {
-    .mission-visionWarpper{
+    .mission-visionWarpper {
         grid-template-columns: 2fr 3fr;
+    }
+
+    .pages {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1100px) {
+    .magazineCoverImageOverlay {
+        display: none;
+    }
+
+    .headingWrapper {
+        flex-direction: row-reverse;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        padding-bottom: 0;
+    }
+
+    .headingText {
+        text-align: left;
+        align-items: flex-start;
+        height: 70vh;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .headingText>h1.heading {
+        text-align: left;
+        padding: 0;
+    }
+
+    .magazineCoverImage {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin-right: 50px;
+    }
+
+    .magazineCoverImagePic {
+        height: 70vh;
+        width: auto;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .pages {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .pagesWarpper {
+        background: #FEAC5E;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .boardWrapper {
+        background: black;
+    }
+
+    .page-button {
+        padding: 20px 10px;
     }
 }

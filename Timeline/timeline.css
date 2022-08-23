@@ -12,7 +12,6 @@
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
   background: var(--light);
   color: var(--light);
   overflow-x: hidden;
@@ -91,6 +90,19 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+a{
+  color: white;
+  /* width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px; */
 }
 
 /* EFFECTS
