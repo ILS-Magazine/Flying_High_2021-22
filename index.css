@@ -84,15 +84,15 @@ h1.heading {
 
 .mission-visionContent {
     padding: 20px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .mission-visionContent:nth-child(1) {
-    background: linear-gradient(270deg, #159F4D, #67EB9C);
+    background: linear-gradient(270deg, #159F4D, #3eda7d);
 }
 
 .mission-visionContent:nth-child(2) {
@@ -125,12 +125,16 @@ h1.heading {
 
 .page-button {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
     cursor: pointer;
     border: none;
     outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .page-button:hover {
@@ -154,6 +158,31 @@ h1.heading {
 .board-member>p {
     font-size: 0.75em;
 }
+
+.pages > .page-button:hover{
+    cursor: pointer;
+    animation: pageHover 1s infinite alternate ease-in-out;
+    -webkit-animation: pageHover 1s infinite alternate ease-in-out;
+    font-weight: bold;
+}
+
+@keyframes pageHover {
+    0% {
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        -moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -o-transform: translateY(-5px);
+}
+    100%{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+}
+}
+
 
 @media (min-width: 800px) {
     .mission-visionWarpper {
@@ -203,12 +232,12 @@ h1.heading {
     .magazineCoverImagePic {
         height: 70vh;
         width: auto;
-        border-radius: 15px;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        -ms-border-radius: 15px;
-        -o-border-radius: 15px;
-    }
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
 
     .pages {
         grid-template-columns: 1fr 1fr 1fr;
