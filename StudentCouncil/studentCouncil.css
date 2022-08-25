@@ -21,8 +21,11 @@ h1{
 /* h2{
     font-family: var(--section-heading-font);
 } */
-.gradient{
+
+.cover{
     background: linear-gradient(135deg,#ff4570,#ffd900,#5af0b6, #407cff);
+}
+.gradient{
 }
 .container{
     /* background: linear-gradient(135deg,red,blue,white,yellow,green); */
