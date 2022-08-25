@@ -4,6 +4,7 @@ body {
 }
 
 .cursor {
+    display: none;
     border: 1px solid var(--white);
     z-index: 100000;
     mix-blend-mode: color-dodge;

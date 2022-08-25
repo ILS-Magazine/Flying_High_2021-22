@@ -18,11 +18,11 @@ h1{
 
 }
 
-h2{
+/* h2{
     font-family: var(--section-heading-font);
-}
+} */
 .gradient{
-    background: linear-gradient(135deg,#FF2400,#3F00FF,white,#FFBA00,#00FA9A);
+    background: linear-gradient(135deg,#ff4570,#ffd900,#5af0b6, #407cff);
 }
 .container{
     /* background: linear-gradient(135deg,red,blue,white,yellow,green); */
@@ -34,16 +34,20 @@ h2{
     grid-gap: 25px;
 }
 
-.cards{ 
+.cards{
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .image-section{
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     height: 225px;
     background-color: red;
 }
@@ -106,6 +110,6 @@ background: linear-gradient(to right, #F27121, #E94057, #ff5555); /* W3C, IE 10+
 
 .image-section{
 
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
