@@ -262,5 +262,5 @@ function cClick(shortForm, fullForm, teacherHead, studentHead1, studentHead2) {
   localStorage.setItem("teacherHead", teacherHead)
   localStorage.setItem("studentHead1", studentHead1)
   localStorage.setItem("studentHead2", studentHead2)
-  window.open("/Committees/committee.html", "_self");
+  window.open("/Flying_High_2021-22//Committees/committee.html", "_self");
 };
