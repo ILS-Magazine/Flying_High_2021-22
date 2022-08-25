@@ -31,12 +31,12 @@ function darkMode() {
     var root = document.querySelector(':root');
     root.style.setProperty('--light', '#020F17');
     root.style.setProperty('--dark', '#fffcf9');
-    darkModeButton.style.backgroundImage = "url(..//Flying_High_2021-22/Images/NavBar/sun.svg)";
+    darkModeButton.style.backgroundImage = "url(sun.svg)";
 }
 
 function lightMode() {
     var root = document.querySelector(':root');
     root.style.setProperty('--dark', '#020F17');
     root.style.setProperty('--light', '#fffcf9');
-    darkModeButton.style.backgroundImage = "url(..//Flying_High_2021-22/Images/NavBar/moon.svg)";
+    darkModeButton.style.backgroundImage = "url(moon.svg)";
 }
