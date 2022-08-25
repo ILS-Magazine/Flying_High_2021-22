@@ -3,6 +3,17 @@ body {
     color: var(--light);
 }
 
+.cursor{
+    border: 1px solid var(--white);
+    z-index: 100000;
+    mix-blend-mode: overlay;
+    transform: scale(200%);
+    -webkit-transform: scale(200%);
+    -moz-transform: scale(200%);
+    -ms-transform: scale(200%);
+    -o-transform: scale(200%);
+}
+
 section {
     padding: 30px;
 }

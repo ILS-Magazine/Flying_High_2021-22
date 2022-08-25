@@ -188,6 +188,14 @@ body {
     margin-bottom: 10px;
 }
 
+.cover > svg:first-of-type{
+    pointer-events: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
 .cover>h1 {
     font-family: 'agright', sans-serif;
     font-weight: 500;
