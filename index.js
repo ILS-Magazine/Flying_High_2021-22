@@ -11,3 +11,7 @@ function myFunc(){
 // document.querySelector(".magazineCoverImage").addEventListener("click", () => {
 //     document.querySelector(".magazineCoverImage").classList.toggle("zoomIn")
 // })
+
+function websiteVisits(response) {
+  document.querySelector("#visits").textContent = response.value;
+}

@@ -221,3 +221,11 @@ body {
 .pageWrapper {
     padding: clamp(10px, 4vw, 30px);
 }
+
+.toTitle{
+    text-transform: lowercase;
+}
+
+.toTitle::first-line{
+    text-transform: capitalize;
+}

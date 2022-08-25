@@ -28,10 +28,13 @@ p{
 }
 
 .niggers{
-    border-radius: 100px;
-   
+    border-radius: 10px;
     image-rendering: optimizeQuality;
     width: 80%;
     margin: 0 10%;
     margin-top: 1cm;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

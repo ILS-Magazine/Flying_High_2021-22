@@ -123,6 +123,10 @@ h1.heading {
     margin-bottom: 30px;
 }
 
+.magazineCoverImageOverlay{
+    display: none;
+}
+
 .page-button {
     padding: 10px;
     border-radius: 10px;
@@ -144,22 +148,29 @@ h1.heading {
 
 .board-member {
     text-align: center;
-    background: #111;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #111;
 }
 
 .boardWrapper {
-    background: black;
+    background: #2196f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f44336, #2196f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .board-member>p {
     font-size: 0.75em;
 }
 
-.pages > .only-page-button:hover{
+.pages>.only-page-button:hover {
     cursor: pointer;
     animation: pageHover 1s infinite alternate ease-in-out;
     -webkit-animation: pageHover 1s infinite alternate ease-in-out;
@@ -173,17 +184,18 @@ h1.heading {
         -moz-transform: translateY(-5px);
         -ms-transform: translateY(-5px);
         -o-transform: translateY(-5px);
-}
-    100%{
+    }
+
+    100% {
         transform: translateY(5px);
         -webkit-transform: translateY(5px);
         -moz-transform: translateY(5px);
         -ms-transform: translateY(5px);
         -o-transform: translateY(5px);
-}
+    }
 }
 
-.high-commisioners-message{
+.high-commisioners-message {
     width: 100%;
     height: calc(100vh - 60px);
     border-radius: 10px;
@@ -193,19 +205,19 @@ h1.heading {
     -o-border-radius: 10px;
 }
 
-.headsMessageWrapper{
+.headsMessageWrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
 }
 
-.headMessage{
+.headMessage {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.headImage{
+.headImage {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -215,6 +227,43 @@ h1.heading {
     -moz-border-radius: 200px;
     -ms-border-radius: 200px;
     -o-border-radius: 200px;
+}
+
+.headMessageContent {
+    font-weight: lighter;
+}
+
+.footerWrapper{
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.createdBy{
+    text-decoration: none;
+    background-color: var(--accent3);
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 10px;
+}
+
+.createdBy:hover{
+    background-color: var(--accent2);
+
+}
+
+.headMessageHeading{
+    margin-top: 20px;
 }
 
 @media (min-width: 800px) {
@@ -229,6 +278,10 @@ h1.heading {
 }
 
 @media (min-width: 1100px) {
+    section {
+        padding: 50px;
+    }
+
     .magazineCoverImageOverlay {
         display: none;
     }
@@ -270,7 +323,7 @@ h1.heading {
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-}
+    }
 
     .pages {
         grid-template-columns: 1fr 1fr 1fr;
@@ -286,10 +339,28 @@ h1.heading {
     }
 
     .boardWrapper {
-        background: black;
+        background: #2196f3;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f44336, #2196f3);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f44336, #2196f3);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
 
     .page-button {
         padding: 20px 10px;
+    }
+
+    .headsMessageWrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+    .footerWrapper{
+        background-color: #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
     }
 }
