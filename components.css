@@ -188,6 +188,14 @@ body {
     margin-bottom: 10px;
 }
 
+.cover > svg:first-of-type{
+    pointer-events: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
 .cover>h1 {
     font-family: 'agright', sans-serif;
     font-weight: 500;
@@ -220,4 +228,12 @@ body {
 
 .pageWrapper {
     padding: clamp(10px, 4vw, 30px);
+}
+
+.toTitle{
+    text-transform: lowercase;
+}
+
+.toTitle::first-line{
+    text-transform: capitalize;
 }

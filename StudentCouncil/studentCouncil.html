@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="..//components.css">
-        <link rel="stylesheet" href="./studentCouncil.css">
-    </head>
-    <body>
-       <div class="gradient">
+
+<head>
+    <link rel="shortcut icon" href="../Images/Favicons/Student Council.svg" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..//components.css">
+    <link rel="stylesheet" href="./studentCouncil.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cover">
+        <svg class="blob" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.25691 27.8862L27.8863 8.25678L20.4814 0.852083C19.3453 -0.284028 17.5035 -0.284028 16.3674 0.852083L0.851833 16.3674C0.306663 16.913 4.11082e-05 17.6531 0.00023505 18.4246C4.11082e-05 19.1963 0.306663 19.9359 0.852221 20.4815L8.25691 27.8862ZM20.4812 63.1487C19.9358 63.6942 19.196 64.0009 18.4245 64.0007H2.90932C1.30232 64.0009 0.000193942 62.6982 0.000193942 61.0917L0 45.5764C0 44.8049 0.306428 44.0648 0.851986 43.5195L9.94281 34.4288L12.3712 32.0005L27.8863 16.4851L47.5157 36.1146L32.0006 51.6299L20.4812 63.1487ZM36.1145 55.744L55.7439 36.1146L63.1484 43.5194C63.6944 44.0648 64.0008 44.8045 64.0008 45.5762C64.0008 46.3479 63.6944 47.0878 63.1484 47.6335L47.6331 63.1487C47.0654 63.7169 46.3207 64.0011 45.5763 64.0009C44.8318 64.0011 44.0875 63.7169 43.5192 63.1489L36.1145 55.744ZM63.1486 20.4817L52.9544 30.6757L51.6298 32.0009L32.0006 12.3714L34.1917 10.1799L43.5192 0.852473C44.6553 -0.283831 46.4973 -0.283831 47.6332 0.852279L63.1486 16.3676C63.6945 16.9132 64.0009 17.6531 64.0009 18.4248C64.0009 19.1961 63.6943 19.9361 63.1486 20.4817Z"
+                fill="var(--dark)" />
+        </svg>
+
+
+        <h1>Student Council</h1>
+        <svg class="scrollDown" onclick="window.scrollBy(0, window.innerHeight);" width="34" height="20"
+            viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_439_69)">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.129135 3.38877L3.42852 0.089386L16.6263 13.287L29.824 0.089386L33.1233 3.38877L19.9257 16.5865L16.6263 19.8859L13.3268 16.5865L0.129135 3.38877Z"
+                    fill="var(--dark)" />
+            </g>
+            <defs>
+                <clipPath id="clip0_439_69">
+                    <rect width="33.2099" height="20" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+    </div>
+    <div class="pageWrapper">
+        <div class="gradient">
             <img src="icon.svg" class="icon">
             <h1>Student Council</h1>
             <div class="container">
-                
+
                 <div class="cards">
-                    <img src="./111.jpg" alt="Head Boy" class="image-section">
+                    <img src="../Images/HomePage/Mitansh.JPG" alt="Head Boy" class="image-section">
                     <div class="content">
                         <h2>Name</h2>
-                        <h3>Head Boy</h3>
+                        <p>Head Boy</p>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="./111.jpg" alt="Head Girl" class="image-section">
+                    <img src="../Images/HomePage/Sumedha.JPG" alt="Head Girl" class="image-section">
                     <div class="content">
                         <h2>Name</h2>
-                        <h3>Head Girl</h3>
+                        <p>Head Girl</p>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="./111.jpg" alt="Vice-Head boy" class="image-section">
+                    <img src="../Images/HomePage/Mayank.JPG" alt="Vice-Head boy" class="image-section">
                     <div class="content">
                         <h2>Name</h2>
-                        <h3>Vice-Head boy</h3>
+                        <p>Vice-Head boy</p>
                     </div>
                 </div>
                 <div class="cards">
-                    <img src="./111.jpg" alt="Vice Head Girl" class="image-section">
+                    <img src="../Images/HomePage/Megha.JPG" alt="Vice Head Girl" class="image-section">
                     <div class="content">
                         <h2>Name</h2>
-                        <h3>Vice Head Girl</h3>
+                        <p>Vice Head Girl</p>
                     </div>
                 </div>
             </div>
-       </div>
-        <div class="container ganga" id="ganga">
+        </div>
+        <!-- <div class="container ganga" id="ganga">
             <div class="cards">
                 <img src="ganga Captain.jpg" alt="Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Captain</h3>
+                    <p>Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="ganga Vice Captain.jpg" alt="Vice Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Vice Captain</h3>
+                    <p>Vice Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="ganga Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="ganga Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
         </div>
@@ -81,28 +108,28 @@
                 <img src="yamuna Captain.jpg" alt="Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Captain</h3>
+                    <p>Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="yamuna Vice Captain.jpg" alt="Vice Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Vice Captain</h3>
+                    <p>Vice Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="yamuna Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="yamuna Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
         </div>
@@ -111,28 +138,28 @@
                 <img src="krishna Captain.jpg" alt="Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Captain</h3>
+                    <p>Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="krishna Vice Captain.jpg" alt="Vice Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Vice Captain</h3>
+                    <p>Vice Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="krishna Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="krishna Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
         </div>
@@ -141,30 +168,32 @@
                 <img src="cauvery Captain.jpg" alt="Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Captain</h3>
+                    <p>Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="cauvery Vice Captain.jpg" alt="Vice Captain" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Vice Captain</h3>
+                    <p>Vice Captain</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="cauvery Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
             <div class="cards">
                 <img src="cauvery Prefect.jpg" alt="Prefect" class="image-section">
                 <div class="content">
                     <h2>Name</h2>
-                    <h3>Prefect</h3>
+                    <p>Prefect</p>
                 </div>
             </div>
-        </div>
-    </body>
+        </div> -->
+    </div>
+</body>
+
 </html>

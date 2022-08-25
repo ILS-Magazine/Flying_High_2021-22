@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+.cursor{
+    border: 5px solid var(--accent1);
+
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: var(--light);
 }
 
 .cover {
