@@ -3,10 +3,10 @@ body {
     color: var(--light);
 }
 
-.cursor{
+.cursor {
     border: 1px solid var(--white);
     z-index: 100000;
-    mix-blend-mode: overlay;
+    mix-blend-mode: color-dodge;
     transform: scale(200%);
     -webkit-transform: scale(200%);
     -moz-transform: scale(200%);
@@ -134,7 +134,7 @@ h1.heading {
     margin-bottom: 30px;
 }
 
-.magazineCoverImageOverlay{
+.magazineCoverImageOverlay {
     display: none;
 }
 
@@ -244,7 +244,7 @@ h1.heading {
     font-weight: lighter;
 }
 
-.footerWrapper{
+.footerWrapper {
     background-color: #000;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -255,7 +255,7 @@ h1.heading {
 
 }
 
-.createdBy{
+.createdBy {
     text-decoration: none;
     background-color: var(--accent3);
     color: #000;
@@ -268,13 +268,54 @@ h1.heading {
     margin-left: 10px;
 }
 
-.createdBy:hover{
+.createdBy:hover {
     background-color: var(--accent2);
 
 }
 
-.headMessageHeading{
+.headMessageHeading {
     margin-top: 20px;
+}
+
+
+.seniorLeadersImage {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.seniorLeadersText>h2 {
+    text-align: left;
+}
+
+.seniorLeadersWrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interviewWrapper {
+    background-color: #31D2E3;
+    color: white;
+}
+
+.interviewVideo {
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.interviewVideo{
+    width: 100%;
 }
 
 @media (min-width: 800px) {
@@ -367,11 +408,26 @@ h1.heading {
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
     }
-    .footerWrapper{
+
+    .footerWrapper {
         background-color: #000;
         padding-top: 20px;
         padding-bottom: 20px;
-    flex-direction: row;
-    justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    .seniorLeadersWrapper {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .interviewWrapper {
+        flex-direction: row-reverse;
+    }
+
+    .interviewVideo{
+        width: auto;
+    }
+
 }
