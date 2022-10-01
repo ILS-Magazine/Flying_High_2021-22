@@ -23,10 +23,10 @@ h1{
 } */
 
 .cover{
-    background: linear-gradient(to bottom,#ff4570,#ffd900,#5af0b6, #407cff);
+    background: linear-gradient(135deg,#ff4570,#ffd900,#5af0b6, #407cff);
 }
-.gradient{
-}
+/* .gradient{
+} */
 .container{
     /* background: linear-gradient(135deg,red,blue,white,yellow,green); */
     margin-top: 5px;

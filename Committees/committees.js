@@ -239,10 +239,11 @@ function cList() {
     studentHead1 = committee.StudentHead1;
     studentHead2 = committee.StudentHead2;
     description = committee.Description;
+    c_article = committee.Article;
 
     // Creating Committee Div
     cDiv = `
-    <div class="committee" onclick="cClick('${shortForm}', '${cName}', '${teacherHead}', '${studentHead1}', '${studentHead2}')">
+    <div class="committee" onclick="cClick('${shortForm}', '${cName}', '${teacherHead}', '${studentHead1}', '${studentHead2}', '${c_article}')">
       <img src="./Committee Logos/${shortForm}.svg" alt="${cName}" class="cLogo">
       <p class="cName">${cName}</p>
       <p class="cDescription">${description}</p>
@@ -262,5 +263,6 @@ function cClick(shortForm, fullForm, teacherHead, studentHead1, studentHead2) {
   localStorage.setItem("teacherHead", teacherHead)
   localStorage.setItem("studentHead1", studentHead1)
   localStorage.setItem("studentHead2", studentHead2)
-  window.open("/Committees/committee.html", "_self");
+  localStorage.setItem("c_article", c_article)
+  window.open("/Flying_High_2021-22//Committees/committee.html", "_self");
 };

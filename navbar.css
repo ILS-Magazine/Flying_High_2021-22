@@ -45,6 +45,7 @@ button {
 
 nav {
     font-family: "Poppins", sans-serif;
+    z-index: 100000000;
 }
 
 nav a{
@@ -183,7 +184,7 @@ nav div.navElements img.logo {
     height: 22px;
     width: 22px;
     background-color: transparent;
-    background-image: url('..//Flying_High_2021-22/Images/NavBar/moon.svg');
+    background-image: url('./Editorial/moon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 22px;
@@ -202,9 +203,9 @@ nav div.navElements img.logo {
     display: none;
 }
 
-.pageWrapper{
+/* .pageWrapper{
     margin-top: 60px;
-}
+} */
 
 @media (max-width: 600px) {
     nav{
