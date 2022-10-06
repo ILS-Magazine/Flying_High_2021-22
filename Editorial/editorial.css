@@ -134,3 +134,27 @@ nav {
     padding-right: 12px;
     padding-left: 3px;
 }
+
+.border{
+    width: 100%;
+    height: 10px;
+    background-color: var(--accent4);
+    border-radius: 5px;
+}
+/* .pageWrapperdesign{
+    padding: 15px;
+    width:60%;
+    margin:auto;
+} */
+.designimages{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.designeditorialimages{
+    width: 100%;
+    
+}
