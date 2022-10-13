@@ -1,12 +1,6 @@
-:root {
-    --light: #fffcf9;
-    --dark: #020f17;
-}
-
-
 body {
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: #020f17;
+    color: #fffcf9;
 }
 
 .cursor {
@@ -52,7 +46,7 @@ h1.heading {
     font-size: clamp(30px, calc(20px + 4vw), 72px);
     /* text-align: left; */
     padding: 0;
-    color: var(--light);
+    color: #fffcf9;
     text-align: center;
     padding: 30px;
 }
@@ -160,8 +154,8 @@ h1.heading {
 }
 
 .page-button:hover {
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: #020f17;
+    color: #fffcf9;
 }
 
 .board-member {
