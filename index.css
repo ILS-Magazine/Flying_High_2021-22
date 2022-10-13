@@ -1,3 +1,7 @@
+:root {
+    --light: #fffcf9;
+    --dark: #020f17;
+}
 
 
 body {
@@ -317,7 +321,7 @@ h1.heading {
     -o-border-radius: 10px;
 }
 
-.interviewVideo{
+.interviewVideo {
     width: 100%;
 }
 
@@ -429,7 +433,7 @@ h1.heading {
         flex-direction: row-reverse;
     }
 
-    .interviewVideo{
+    .interviewVideo {
         width: auto;
     }
 
