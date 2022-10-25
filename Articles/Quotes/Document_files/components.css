@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:wght@700&family=Source+Sans+Pro:ital,wght@0,600;1,300&display-swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+:root { 
+    /* BG Color Variables */
+    --light: #f8efe6;
+    --dark: #020f17;
+
+    /* Accent Color Variables */
+    --accent1: #ef4479;
+    --accent2: #fec758;
+    --accent3: #fcdd76;
+    --accent4: #48d0b9;
+    --accent5: #1987ff;
+
+    /* Neutral Color Variables */
+    --grey100: #ffffff;
+    --grey200: #e1e4e8;
+    --grey300: #c2c9d1;
+    --grey400: #92979d;
+    --grey500: #616569;
+    --grey600: #46494d;
+    --grey700: #1f2124;
+    --grey800: #020f17;
+    --grey900: #000000;
+
+    /* White and Black, Not affected by darkMode() */
+    --white: #ffffff;
+    --black: #000000;
+
+    /* Font Families */
+
+    --heading-font: "Playfair Display", serif;
+    /* --section-heading-font: "Alice", serif; */
+    --section-heading-font: "Montserrat", sans-serif;
+    --content-font: "Source Sans Pro", sans-serif;
+    --small-content-font: "Source Sans Pro", sans-serif;
+
+}
+
+
+/* Utitly Classes */
+
+.bga1 {
+    background-color: var(--accent1);
+}
+
+.bga2 {
+    background-color: var(--accent2);
+}
+
+.bga3 {
+    background-color: var(--accent3);
+}
+
+.bga4 {
+    background-color: var(--accent4);
+}
+
+.bga5 {
+    background-color: var(--accent5);
+}
+
+.cw {
+    color: var(--white);
+}
+
+.cb {
+    color: var(--black);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: clamp(30px, calc(20px + 6vw), 84px);
+    padding: clamp(10px, 4vw, 30px);
+    color: var(--dark);
+}
+
+
+.heading {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: clamp(30px, calc(20px + 6vw), 84px);
+    padding: clamp(10px, 4vw, 30px);
+}
+
+.section-heading{
+    text-align: center;
+    font-family: var(--section-heading-font);
+    font-size: clamp(21px, calc(10px + 6vw), 48px);
+    padding: clamp(10px, 4vw, 30px);
+}
+
+body{
+    font-family: var(--content-font);
+}

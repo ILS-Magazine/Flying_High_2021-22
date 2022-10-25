@@ -46,6 +46,7 @@ button {
 nav {
     font-family: "Poppins", sans-serif;
     z-index: 100000000;
+    position: relative;
 }
 
 nav a{

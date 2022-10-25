@@ -1,0 +1,26 @@
+Committee,Short Form,Teacher Head,Student Head 1,Student Head 2,Description
+Student Voice Group,SVG,Mrs. S. Gupta,Shreyas Rajesh ,Keyush Venket Subramanian,is the Voice of the students of ILS. The group endeavours to find solutions to the problems faced by the students.
+Hubs Of Learning,HOLC,Mrs. S. Gupta and  Dr. (Mrs.) M. Jain,Aryan Babaria,,"are formed for collaborative growth, promoting self - improvement and for ensuring the enhancement of the quality of education."
+Eco Club,ECOC,Dr. (Mrs.) M. Jain ,Akhilesh Ghate,,"empowers students to take up meaningful environmental activities and projects. It is a forum through which students can reach out to influence, engage their parents and neighbourhood communities to promote sound environmental behaviour. "
+School Safety Committee,SSC,Mrs. I. Yadav and Mrs. N. Goyal,Vedant Vadalikar ,,"is meant to make the students aware of the basic Safety needs. It promotes the protection of students from bullying, injuries, illness, harassment and other safety issues."
+Events Committee,EC,,Krish Bansal,,of the school has applied the basic framework in the meticulously conduction of any event in the school. Planning an event goes much more smoothly with a proper team in place. 
+Global Awareness Committee,GAC,Mrs. B. Mathew ,Sahaj Falod,,which consists of Senior Students of ILS has undertaken an initiative to keep the students updated of Global Events
+Curriculum Development Group,CDG,Mrs. R. Lakhanpal ,Raghav Kumar Prasad ,Sanjith Santhosh ,"consist of Senior Students. Its implementation focusses on development of critical thinking, problem solving skills across the school."
+Student Counselling Committee,SCC,Mrs. G. Bajaj ,Sarah Santhosh Abraham,,"aims to ensure equitable academic, career and social/emotional development opportunities for all students."
+Magazine Committee,MC,Mrs. G. Shergill,Subhashree Panigrahy  ,Harshala Kumar,"works throughout the year to collect best creative writings, record prestigious awards, memories in form of pictures and delivers a school magazine annually."
+Art Integration Committee,AIC,Mrs. N. Ramchandani ,Gaurav Shah  ,Ananya Jayaprakash Rao,is an approach to teaching that integrates the fine and performing arts as primary pathways to learning.
+Career Counselling Committee,CCC,Mrs. S. Tandon ,Lakshita Aggarwal ,Khushee Joshi,"help students develop skills, explore a career, or choose an educational program that will lead to a career."
+Interact Club,IC,Mrs. A. Dhawan ,Hemani Rao ,,"members carry out hands-on service projects, make international connections, develop leadership skills, and have fun in the process."
+Sewa,SEWA,Mrs. L. Chandrashekhar ,Nivedita Shukla ,,"(Social Empowerment through Work Education and Action) an endeavor by CBSE is a program that aims to focus on the mental, emotional and social health of a student."
+Health And Wellness Committee,HAWC,Mrs. G. Manaise ,Aaisha Dilip Sawlani  ,Richa Sali ,'s role is to build an environment that is supportive of living a healthy life style.
+Charity Committee,CC,Mrs. A. Chawla,Rahul Arora ,Varsha Susan Issac,helps to raise money for those in need.
+Model United Nations Committee,MUN,Mrs. L. Dam ,Harsift Kaur  ,Vimudha Jinal Singh ,"help the students to develop leadership skills, research, writing, public speaking, and problem-solving skills."
+Event Logger Committee,ELC,Mrs. N. Sharma,K.P.Niranjini,,"keeps a record of all the school events, with description and pictures of the events. This helps in collating data for the school newsletter and magazine."
+D.E.A.R.,DEAR,Mrs. S. Mitra,Prakhar Borgaonkar ,Singarapu Tanasi,"stands for ""Drop Everything and Read,"" a celebration of reading designed to remind students to make reading a priority activity in their lives."
+Discipline Committee,DC,Mrs. P. Gopal,Pratham Muthyampeta ,Nandini Sehgal ,"has a goal of creating a safe, motivating and accepting  environment by supporting the use of positive attitudes and practices. "
+Life Skills Committee,LSC,Mrs. S. De ,Vinisha Sahoo,,The term ‘Life Skills’ is usually used for any of the skills needed to deal well and effectively with the challenges of life. 
+Sports Committee ,SC,Dr. (Mrs.) P. Nagine,Keerthivasan Anandaraj  ,Garistha Sharma,helps promote sports activities by motivating students and promoting team spirit by making healthy competition.
+Personality Development Committee,PDC,Mrs. N. Jha ,Megha Bailur,,functions to create zeal amongst students towards personality enhancement. It plays a vital role in improving one's communication skills and facing the turbulent world with strides and smile.
+Mental Health & Wellbeing Committee ,MHAWBC,Dr. (Mrs.) S. Jamloki,Kritika Kaurani ,Anushri Udasi,exists to monitor and address the mental health and wellbeing needs of students.
+Culinary Arts Committee,CAC,Mrs. A. Kaurani  ,Noopur Sanjata Roul ,Tanishka Shivnani,
+First Aid Committee,FAC,Coach Mooney ,Riya Trivedi ,,"aims to provide immediate, lifesaving, medical care before the arrival of further medical help."
