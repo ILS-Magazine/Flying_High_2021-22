@@ -1,0 +1,41 @@
+.quotesbutton{
+    margin: auto;
+    width: 40%;
+    padding: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a.button-56 {  
+  align-items: center;
+  background-color: #fc9676;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: "Source Sans Pro",poppins;
+  font-size: 45px;
+  font-weight: bolder;
+  height: 73px;
+  width: 500px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 20px 50px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+@media (min-width: 768px) {
+    a.button-56 {
+      padding: 0 40px;
+    }
+  }
+  
