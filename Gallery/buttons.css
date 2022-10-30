@@ -1,6 +1,6 @@
 .quotesbutton{
     margin: auto;
-    width: 40%;
+    width: 70%;
     padding: 0px;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -36,7 +36,7 @@ a.button-56 {
 
 @media (min-width: 100px) {
   a.button-56 {
-      padding: 0 40px;
+      padding: 15px;
       height: auto;
       width: auto;
   }
@@ -44,7 +44,7 @@ a.button-56 {
 
 @media (min-width: 50px) {
   a.button-56 {
-    padding: 0 40px;
+    padding: 15px;
     height: auto;
     width: auto;
   }
