@@ -107,9 +107,19 @@ a.button-56:hover {
   outline: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 100px) {
+  a.button-56 {
+      padding: 0 40px;
+      height: auto;
+      width: auto;
+  }
+}
+
+@media (min-width: 50px) {
   a.button-56 {
     padding: 0 40px;
+    height: auto;
+    width: auto;
   }
 }
 
