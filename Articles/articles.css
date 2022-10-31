@@ -80,18 +80,18 @@ a.button-56 {
 }
 
 a.button-56:after {
-  background-color: #111;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 73px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 73px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
 }
 
 a.button-56:hover:after {
@@ -109,17 +109,21 @@ a.button-56:hover {
 
 @media (min-width: 100px) {
   a.button-56 {
-      padding: 0 40px;
-      height: auto;
-      width: auto;
+      padding: 10px 40px;
+      height: max-content;
+  }
+  a.button-56:after {
+    height: 105%;
   }
 }
 
 @media (min-width: 50px) {
   a.button-56 {
-    padding: 0 40px;
-    height: auto;
-    width: auto;
+    padding: 10px 40px;
+    height: max-content;
+  }
+  a.button-56:after {
+    height: 105%;
   }
 }
 
