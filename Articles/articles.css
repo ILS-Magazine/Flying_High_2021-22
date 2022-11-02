@@ -48,6 +48,13 @@
     cursor: pointer;
 }
 
+.image{
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    width: 15%;
+  }
+
 .quotesbutton{
     margin: auto;
     width: 40%;
