@@ -6,6 +6,11 @@
     -o-transition: 0s;
 }
 
+
+.designeditorialimages{
+    border-radius: 100px
+}
+
 .cover {
     background: linear-gradient(135deg, #87d7c9, #1cc5a9);
 }
