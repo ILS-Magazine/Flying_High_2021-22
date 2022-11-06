@@ -1,4 +1,18 @@
 var sampleData = [
+    {
+    "UCID": "Quote34",
+    "NAME": "Gaurav Shah",
+    "CLASS AND SECTION": "XI C",
+    "Quote": "“I am still learning” - Michelangelo at the age of 87\n\nWhether it be something small (like a class project) or a huge competition (like the investment competition), I make it a point to always take away one new skill from what I’ve done. This curiosity to learn has driven and motivated me over the years. For example, I never thought of myself as a computer geek (I still use my apps on light mode 😅) but out of necessity, I learnt how to code and now, it’s a huge part of my life.",
+    "Famous Personality": "More so than the fake persona’s of famous people, it is the people around me who motivate me. My friends, teachers, team mates, parents and everyone else - real people, who I see succeeding and struggling motivate me. It reminds me that no one is perfect, but with time, determination and smart work, success is inevitable."
+  },
+  {
+    "UCID": "Quote26",
+    "NAME": "Saumya Shreya ",
+    "CLASS AND SECTION": "XI D",
+    "Quote": "Umbrella can’t stop the rain but can make us stand in the rain. Similarly, confidence may not bring success, but gives us power to face any challenge in life. \nThis quote has the power to motivate so many people with low self-esteem and self doubt. It taught me that no matter the situation we can find ourself in, always remember that we are the most powerful person. No one else has the power to influence our self-confidence and self-esteem like we can,that is 100% on us. We are the judge, jury and executioner of our own awesomeness,every single day.",
+    "Famous Personality": "A famous personality who has always motivated me would be Priyanka Chopra. Just like me she was born in a small city named \"Jamshedpur\" and since has been a pride of our place. \n\nShe has never been afraid to push the boundaries, believing in working on her own path and it worked on her favour. She's a hustler and lives on coffee but the physical tiredness doesn't stop her brain to stop bubbling with creativity.\nShe's a successful actress, singer, producer and entrepreneur all rolled into one and inspires us to live our dream in any possible way. \nWith this I would like to quote one of her lines,\n\"I have always felt that life is a solidarity journey, that we are each on a train, riding through our hours, our days, our years. We get on alone, we leave alone, and the decisions we make as we travel on the train are our responsibility alone,\"\n\nEnjoying your own company, being independent, bold and wearing your confidence proudly can make invincible. \nThis is what I have learnt from the journey of PeeCee. \n"
+  },
   {
     "UCID": "Quote1",
     "NAME": "Ansa Lorance ",
@@ -175,13 +189,6 @@ var sampleData = [
     "Famous Personality": "Princess Diana, she taught us that if we firmly believe in an idea or a cause for good, come what may it shall happen. She taught us to be fearless, and love people for who and what they are , and not there financial status, she firmly believed, be the change you want to see.Forever known as “The People’s Princess,” Princess Diana had a way of capturing the hearts of the public, and her legacy lives on more than 20 years after her death in 1997. "
   },
   {
-    "UCID": "Quote26",
-    "NAME": "Saumya Shreya ",
-    "CLASS AND SECTION": "XI D",
-    "Quote": "Umbrella can’t stop the rain but can make us stand in the rain. Similarly, confidence may not bring success, but gives us power to face any challenge in life. \nThis quote has the power to motivate so many people with low self-esteem and self doubt. It taught me that no matter the situation we can find ourself in, always remember that we are the most powerful person. No one else has the power to influence our self-confidence and self-esteem like we can,that is 100% on us. We are the judge, jury and executioner of our own awesomeness,every single day.",
-    "Famous Personality": "A famous personality who has always motivated me would be Priyanka Chopra. Just like me she was born in a small city named \"Jamshedpur\" and since has been a pride of our place. \n\nShe has never been afraid to push the boundaries, believing in working on her own path and it worked on her favour. She's a hustler and lives on coffee but the physical tiredness doesn't stop her brain to stop bubbling with creativity.\nShe's a successful actress, singer, producer and entrepreneur all rolled into one and inspires us to live our dream in any possible way. \nWith this I would like to quote one of her lines,\n\"I have always felt that life is a solidarity journey, that we are each on a train, riding through our hours, our days, our years. We get on alone, we leave alone, and the decisions we make as we travel on the train are our responsibility alone,\"\n\nEnjoying your own company, being independent, bold and wearing your confidence proudly can make invincible. \nThis is what I have learnt from the journey of PeeCee. \n"
-  },
-  {
     "UCID": "Quote27",
     "NAME": "Meheraj Birajdar",
     "CLASS AND SECTION": "XI D",
@@ -229,13 +236,6 @@ var sampleData = [
     "CLASS AND SECTION": "XII C",
     "Quote": "The future is scary but you can't just run back to the past because it's familiar. Yes, it's tempting...\n But it's a mistake.",
     "Famous Personality": "Niel Patrick Harris"
-  },
-  {
-    "UCID": "Quote34",
-    "NAME": "Gaurav Shah",
-    "CLASS AND SECTION": "XII C",
-    "Quote": "“I am still learning” - Michelangelo at the age of 87\n\nWhether it be something small (like a class project) or a huge competition (like the investment competition), I make it a point to always take away one new skill from what I’ve done. This curiosity to learn has driven and motivated me over the years. For example, I never thought of myself as a computer geek (I still use my apps on light mode 😅) but out of necessity, I learnt how to code and now, it’s a huge part of my life.",
-    "Famous Personality": "More so than the fake persona’s of famous people, it is the people around me who motivate me. My friends, teachers, team mates, parents and everyone else - real people, who I see succeeding and struggling motivate me. It reminds me that no one is perfect, but with time, determination and smart work, success is inevitable."
   },
   {
     "UCID": "Quote35",
