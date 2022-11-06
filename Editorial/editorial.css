@@ -177,6 +177,8 @@ p.dropCap:first-letter {
     
     
 }
+
+
 .designeditorialimages{
     width: 100%;
     transition: 0.3s;
@@ -199,4 +201,257 @@ p.dropCap:first-letter {
      -moz-transform: scale(104%);
      -ms-transform: scale(104%);
      -o-transform: scale(104%);
+}
+
+body {
+    background-color: var(--light);
+}
+
+
+/* General Button CSS */
+
+button {
+    /* padding: 0.5em 1em; */
+    border-radius: 1.75em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    outline: none;
+    border: none;
+    /* background-color: var(--dark); */
+    cursor: pointer;
+}
+
+/* Dark Mode Button */
+
+.darkModeButton {
+    font-size: 2em;
+    font-family: 'Staatliches', "Poppins";
+    /* border: 2px solid var(--dark); */
+    background: none;
+    /* padding: 0.1em 1em; */
+    outline: none;
+    border: none;
+    border-radius: 1.75em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    /* position: absolute; */
+    top: 20px;
+    right: 20px;
+}
+
+/* Image within the Dark Mode Button */
+.darkModeButtonIcon{
+    height: 30px;
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+    z-index: 100000000;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav>* {
+    transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -webkit-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -moz-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -ms-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+    -o-transition: visibility 3s cubic-bezier(0, 0, 0, 2.78), opacity 3s cubic-bezier(0, 0, 0, 2.78);
+}
+
+nav div.navElements {
+    background-color: var(--grey900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-radius: 0 0 5px 5px; */
+    box-shadow: 0px 0px 10px 0 #00000077;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 1px var(--grey600);
+    padding: 5px 10px;
+}
+
+nav div.navElements ul.navElementsList {
+    list-style: none;
+    display: flex;
+}
+
+nav div.navElements ul.navElementsList li {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-sizing: border-box;
+}
+
+nav div.navElements ul.navElementsList li:hover, nav div.navElements ul.navElementsList li:focus, nav div.navElements ul.navElementsList li:active {
+    /* background-color: var(--grey700); */
+    border-bottom: 2px solid white;
+}
+
+nav div.navElements ul.navElementsList li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav ul.moreElements {
+    padding: 5px 0;
+    width: fit-content;
+    background-color: var(--grey900);
+    color: var(--white);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    /* border: solid 1px var(--grey600); */
+}
+
+nav ul.moreElements li {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav ul.moreElements li:hover {
+    background-color: var(--grey700);
+}
+
+/* nav div.navElements:hover~ul.moreElements, nav div.navElements:focus~ul.moreElements, ul.moreElements:hover, ul.moreElements:active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+} */
+
+nav div.invbtn:hover ~ ul.moreElements, ul.moreElements:hover, ul.moreElements:active{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+div.invbtn{
+    height: 40px;
+    width: 80px;
+    position: fixed;
+    top: 5px;
+    right: 70px;
+    /* background-color: aqua; */
+}
+
+nav div.navElements img.logo {
+    height: 35px;
+    /* padding: 0px; */
+    /* margin-right: auto; */
+    justify-self: start;
+    /* margin: 5px 10px; */
+}
+
+.dark {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.end::after {
+    content: '';
+    background-image: url('./Images/NavBar/down.svg');
+    height: 16px;
+    width: 16px;
+    background-position: 0 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.darkModeButton {
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    background-image: url('./Editorial/moon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 5px;
+}
+
+.mobile-appear{
+    display: none;
+}
+
+/* .pageWrapper{
+    margin-top: 60px;
+} */
+
+@media (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    nav div.navElements {
+        bottom: 0;
+        top: auto;
+    }
+
+    .end::after {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    nav ul.moreElements {
+        top: auto;
+        bottom: 60px;
+    }
+    nav div.navElements ul.navElementsList li:hover, nav div.navElements ul.navElementsList li:focus, nav div.navElements ul.navElementsList li:active {
+        /* background-color: var(--grey700); */
+        border-top: 2px solid white;
+        border-bottom: none;
+    }
+    .mobile-disappear{
+        display: none;
+    }
+    .mobile-appear{
+        display: block;
+    }
+    .pageWrapper{
+        margin-top: 0;
+    }
+}
+
+ul.moreElements.moreElementsDisplay{
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }

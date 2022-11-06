@@ -40,3 +40,10 @@ function lightMode() {
     root.style.setProperty('--light', '#fffcf9');
     darkModeButton.style.backgroundImage = "url(moon.svg)";
 }
+
+document.querySelector('.invbtn').addEventListener("mouseover", () => {
+    console.log('hi');
+    document.querySelector('.moreElements').style.display = "block";
+    document.querySelector('.moreElements').style.opacity = "1";
+    document.querySelector('.moreElements').style.visibiliy = "visible";
+})
