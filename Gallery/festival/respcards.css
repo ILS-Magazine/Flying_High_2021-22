@@ -20,11 +20,18 @@ body{
     color: antiquewhite;
     font: size 1cm;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minimax(400px,1fr));
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
     grid-gap: 40px;
 
 }
+
+@media (max-width: 600px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
 .card{
     background-color: #1c1b29;
     border-radius: 20px;
