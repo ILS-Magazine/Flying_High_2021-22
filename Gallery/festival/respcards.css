@@ -60,7 +60,7 @@ img{
     border-radius: 20px 20px 0 0;
     opacity: 0.7;
 }
-.card1>.container:after{
+/* .card1>.container:after{
     background-image: linear-gradient(
         135deg,
         #0100ec,
@@ -82,7 +82,7 @@ img{
         #0100ec,
         #fb36f4
     );
-}
+} */
 
 .details{
     padding: 20px 10px;
@@ -144,7 +144,7 @@ img{
     border-radius: 20px 20px 0 0;
     opacity: 0.7;
 }
-.card1>.container:after{
+/* .card1>.container:after{
     background-image: linear-gradient(
         135deg,
         #0100ec,
@@ -164,7 +164,7 @@ img{
         #0100ec,
         #fb36f4
     );
-}
+} */
 .details{
     padding: 20px 10px;
 }
