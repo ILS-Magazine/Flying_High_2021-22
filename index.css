@@ -22,7 +22,12 @@ section {
 h2 {
     text-align: center;
 }
-
+.border{
+    width: 100%;
+    height: 10px;
+    background-color: var(--accent4);
+    border-radius: 5px;
+}
 .headingWrapper {
     display: flex;
     align-items: center;
@@ -431,4 +436,8 @@ h1.heading {
         width: auto;
     }
 
+}
+.backimg{
+    width: fit-content;
+    
 }
