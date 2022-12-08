@@ -17,10 +17,30 @@
     padding: 15px;
 }
 .cover{
+    background-color: antiquewhite;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: black;
     color: white;
+    padding: 20px 20px 580px 20px;
     margin: 10px;
-    margin-right: 1100px;
-    padding: 20px;
-    
+    border-radius: 10px;
+    position: absolute;
 }
+.card2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px 350px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+
