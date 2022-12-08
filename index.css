@@ -186,13 +186,13 @@ h1.heading {
 .board-member>p {
     font-size: 0.75em;
 }
-
+/* 
 .pages>.only-page-button:hover {
     cursor: pointer;
     animation: pageHover 1s infinite alternate ease-in-out;
     -webkit-animation: pageHover 1s infinite alternate ease-in-out;
     font-weight: bold;
-}
+} */
 
 @keyframes pageHover {
     0% {
@@ -211,7 +211,9 @@ h1.heading {
         -o-transform: translateY(5px);
     }
 }
-
+.page-button.board-member{
+    cursor:default;
+}
 .high-commisioners-message {
     width: 100%;
     height: calc(100vh - 60px);
