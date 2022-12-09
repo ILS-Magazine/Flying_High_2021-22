@@ -21,23 +21,28 @@
 }
 .flex-container{
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
+    margin-left: -1500px;
 }
 .card1{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: black;
     color: white;
-    padding: 20px 20px 580px 20px;
+    padding: 20px 20px 316px 20px;
     margin: 10px;
     border-radius: 10px;
     position: absolute;
+}
+.img{
+    height: 500px;
+    width: 790px;
 }
 .card2{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: black;
     color: white;
     padding: 20px;
-    margin: 10px 350px;
+    margin: 10px 550px;
     border-radius: 10px;
     position: absolute;
     text-align: center;
