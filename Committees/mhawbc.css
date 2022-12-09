@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&family=Shrikhand&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+.cover{
+    background-color: antiquewhite;
+}
+.flex-container{
+    display: flex;
+    flex:auto;
+    margin-left:-1500px;
+}
+.card1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 140px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+.img{
+    height: 500px;
+    width: 790px;
+}
+.card2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px 550px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+

@@ -21,19 +21,19 @@ var jsonList = [
     "Name": "Rutvi Dam",
     "Status": "Member",
     "Grade": "XI",
-    "Section": " D"
+    "Section": "XID"
   },
   {
     "Name": "Jahnavi Nandwani",
     "Status": "Member",
     "Grade": "XI",
-    "Section": " D"
+    "Section": "XID"
   },
   {
     "Name": "Varsha Ghosal",
     "Status": "Member",
     "Grade": "XI",
-    "Section": " A"
+    "Section": "XIA"
   },
   {
     "Name": "Diya Nambiar",
